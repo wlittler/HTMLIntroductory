@@ -1,15 +1,32 @@
 01 - What is CSS?
 ===============
 
-> In ac felis quis tortor malesuada pretium. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Ut leo. Curabitur nisi. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
+> CSS stands for Cascading Style Sheets. HTML was never intended to control the formatting of the items on the page, that is why CSS was created. CSS controls both formatting and position of elements on an HTML page.
 
 ***
 
-#### Praesent
-> In ac felis quis tortor malesuada pretium. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Ut leo. Curabitur nisi. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
+#### Syntax
+> Standard CSS has 2 available declarations. Classes and ID tags. 
 
 ```css
-.term {
+/* Class */
+.element {
+    
+}
+```
+
+```html
+<div class="element"></div>
+```
+
+```css
+/* Class */
+.element {
+    
+}
+
+/* ID */
+#element {
     
 }
 ```
