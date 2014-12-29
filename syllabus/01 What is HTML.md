@@ -22,19 +22,19 @@ Syntax
 ```
 
 #### Doctype
-> The <!DOCTYPE> declaration is not an HTML tag but an instruction to the web browser about what version of HTML the page is. For this class, we will focus on the HTML5 doctype.
+> The ```<!DOCTYPE>``` declaration is not an HTML tag but an instruction to the web browser about what version of HTML the page is. For this class, we will focus on the HTML5 doctype.
 
 ```html
 <!DOCTYPE html>
 ```
-#### <head> tag
-> The <head> element is a container for all the head elements. In HTML5, it is optional but strongly recommended.
+#### head (tag)
+> The ```<head>``` element is a container for all the head elements. In HTML5, it is optional but strongly recommended.
 
 ```html
 <head></head>
 ```
-#### <body> tag
-> The <body> element contains all the contents of an HTML document, such as text, hyperlinks <a></a>, images <img>, tables <table></table>, lists <li></li>, etc.
+#### body (tag)
+> The ```<body>``` element contains all the contents of an HTML document, such as text, hyperlinks ```<a></a>```, images ```<img>```, tables ```<table></table>```, lists ```<li></li>```, etc.
 
 ```html
 <body></body>
@@ -54,7 +54,7 @@ Only the word <strong>bold</strong> is emphasized.
 Only the word <b>bold</b> is emphasized.
 ```
 
-Note: Use <strong> when you want to emphasize the content and bold the term(s). Use <b> when you just want it bold but stressing the content is unnecessary.
+Note: Use ```<strong>``` when you want to emphasize the content and bold the term(s). Use ```<b>``` when you just want it bold but stressing the content is unnecessary.
 
 #### Making words or lines italicized.
 ```html
