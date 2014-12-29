@@ -3,3 +3,7 @@
 
 [git Manual](http://git-scm.com/) - Official Git book and downloads
 
+[Sublime Text](http://www.sublimetext.com/)
+
+[MAMP](http://www.mamp.info/en/)
+
