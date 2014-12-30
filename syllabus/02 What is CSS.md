@@ -8,6 +8,8 @@
 #### Syntax
 > Standard CSS has 2 available declarations. Classes and ID tags. 
 
+##### Targeting an element with a class
+
 ```css
 /* Class */
 .element {
@@ -19,16 +21,17 @@
 <div class="element"></div>
 ```
 
-```css
-/* Class */
-.element {
-    
-}
+##### Targeting an element with an ID
 
+```css
 /* ID */
 #element {
     
 }
+```
+
+```html
+<div id="element"></div>
 ```
 
 #### The use of comments

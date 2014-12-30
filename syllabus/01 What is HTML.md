@@ -63,6 +63,19 @@ Note: Use ```<strong>``` when you want to emphasize the content and bold the ter
 Only the word <i>italics</i> is in italics.
 ```
 
+#### Adding a hard return to a line (line break).
+```html
+You can take a line of text and <br> break it anywhere.
+
+```
+
+#### Adding paragraphs
+```html
+<p>This is the content that will display as a paragraph. You can add as many sentences as you need.</p>
+
+<p>You can also have as many paragraphs as necessary.</p>
+```
+
 #### The use of comments
 > Comments are used to make notes in a page. These are not visible to the user, but are visible when reading the page source. 
 
