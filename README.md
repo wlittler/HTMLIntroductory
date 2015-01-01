@@ -12,13 +12,13 @@ Week 3 - [Working with External Files](syllabus/03 External Files.md)
 
 Week 4 - [Page Title](syllabus/04 Title.md)
 
-Week 5 - [Page Title](syllabus/05 Title.md)
+Week 5 - [Page Structure, SEO](syllabus/05 Page Structure SEO.md)
 
 Week 6 - [Page Title](syllabus/06 Title.md)
 
 Week 7 - [Page Title](syllabus/07 Title.md)
 
-Week 8 - [Page Title](syllabus/08 Title.md)
+Week 8 - [What You Need To Know](syllabus/08 What You Need To Know.md)
 
 Week 9 - [Extending With Frameworks](syllabus/09 Extending With Frameworks.md)
 
