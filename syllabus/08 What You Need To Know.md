@@ -9,7 +9,7 @@
 > There are a number of personalities of developers. We will discuss these types. You will probably see yourself fitting one or more of the profiles. It is important to understand them for both yourself and interactions with other development team members.
 
 ### What is an API?
-> Just about every web application now uses an API or Application Program Interface. It is important to understand what they are and how they are used.
+> Just about every web application now uses an API or Application Programming Interface. It is important to understand what they are and how they are used.
 
 ***
 
