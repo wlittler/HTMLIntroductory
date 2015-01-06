@@ -10,13 +10,13 @@ Week 2 - [What Is CSS?](syllabus/02 What is CSS.md)
 
 Week 3 - [Working with External Files](syllabus/03 External Files.md)
 
-Week 4 - [Page Title](syllabus/04 Title.md)
+Week 4 - [Images, Backgrounds and Formatting](syllabus/04 Images, Backgrounds and Formatting.md)
 
 Week 5 - [Page Structure, SEO](syllabus/05 Page Structure SEO.md)
 
-Week 6 - [Page Title](syllabus/06 Title.md)
+Week 6 - [Mid Term Project & Review](syllabus/06 Mid Term.md)
 
-Week 7 - [Page Title](syllabus/07 Title.md)
+Week 7 - [Other Front End Technology (JSON, JavaScript, AJAX)](syllabus/07 Other Front End Technology.md)
 
 Week 8 - [What You Need To Know](syllabus/08 What You Need To Know.md)
 
@@ -24,25 +24,31 @@ Week 9 - [Extending With Frameworks](syllabus/09 Extending With Frameworks.md)
 
 Week 10 - [Final Project & Review](syllabus/10 Final.md)
 
-#### Book
+***
+
+### Book
 Although you are not required to purchase a book for this class, we strongly recommend you do. THe HTML/CSS book is a great reference book for learning the basics.
 
 [http://htmlandcssbook.com/](http://htmlandcssbook.com/)
 
-#### Setup Your Environment
+***
+
+### Setup Your Environment
 To develop a web application, you require a code editor and a local web server. 
 
 The suggested code editor is [Sublime Text](http://www.sublimetext.com/). It is free and can be used on Mac and Windows. 
 
 The suggested web server is [MAMP](http://www.mamp.info/en/). It is free and can be used on Mac and Windows. You don't need to buy the pro version. 
 
-#### Reference
+***
+
+### Reference
 - [Helpful Links](Links.md)
 
 ***
 
-`Instructor`: [John Steinmetz](http://johnsteinmetz.net)
+Instructor: [John Steinmetz](http://johnsteinmetz.net)
 
-`Phone`: (512) 592-1103
+Phone: (512) 592-1103
 
-`Email`: john@austincodingacademy.com
+Email: john@austincodingacademy.com
