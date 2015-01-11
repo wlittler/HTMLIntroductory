@@ -1,31 +1,4 @@
 06 Mid Term
 ===============
 
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
-
-***
-
-### Syntax
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. 
-
-```html
-
-```
-
-#### Vestibulum ullamcorper mauris
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
-
-```html
-
-```
-
-***
-
-### Summary
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
-
-***
-
-### Homework 00
-
-TBD
+> The mid-term week will be a review of everything learned up to this point. This may be in the form of written exam but will definitely have a project component. 
