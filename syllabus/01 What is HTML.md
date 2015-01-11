@@ -71,6 +71,7 @@ Only the word <i>italics</i> is in italics.
 
 #### Adding a hard return to a line (line break).
 > When you dont need a paragraph but still need a line break, use the ```<br>``` tag.
+
 ```html
 You can take a line of text and <br> break it anywhere.
 
@@ -79,7 +80,7 @@ You can take a line of text and <br> break it anywhere.
 #### Adding paragraphs
 > If you need structured paragraphs, you can use the ```<p>``` tag. 
 
-```html
+```
 <p>This is the content that will display as a paragraph. You can add as many sentences as you need.</p>
 
 <p>You can also have as many paragraphs as necessary.</p>
