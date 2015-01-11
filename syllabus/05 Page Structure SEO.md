@@ -1,4 +1,4 @@
-05 - Page Structure SEO.md
+05 - Page Structure & SEO / Social Media
 ===============
 
 > Search Engine Optimization (SEO) is the process of optimizing your website pages (code & content) in order to affect your organic page ranking with the major search engines. The way pages are built can positively or negatively affect search engine optimization so it is an important consideration.
@@ -15,6 +15,23 @@
 	<link rel=”author” href=”https://plus.google.com/[YOUR PERSONAL G+ PROFILE HERE]“/>
 
 	</head>
+```
+
+### 508 Compliance 
+> The government standards on websites to meet the Americans With Disabilities Act falls under 508 compliance. To be compliant, you have to make your site accessible and readable by screen readers. There are a number of items you can do to increase this accessibility. These should be done as a matter of best practice. 
+
+**alt**
+Your alt property should never be empty. There should be an alt (alternate) property on every image tag.
+
+```
+<img alt="Readable description of image" src="/images/image.jpg">
+```
+
+**title**
+Your title property should never be empty. There should be a title property on every image tag.
+
+```
+<img title="Readable description of image" src="/images/image.jpg">
 ```
 
 ### Social Media : OpenGraph or og tags
