@@ -20,14 +20,14 @@
 ### 508 Compliance 
 > The government standards on websites to meet the Americans With Disabilities Act falls under 508 compliance. To be compliant, you have to make your site accessible and readable by screen readers. There are a number of items you can do to increase this accessibility. These should be done as a matter of best practice. 
 
-**alt**
+**alt**<br>
 Your alt property should never be empty. There should be an alt (alternate) property on every image tag.
 
 ```
 <img alt="Readable description of image" src="/images/image.jpg">
 ```
 
-**title**
+**title**<br>
 Your title property should never be empty. There should be a title property on every image tag.
 
 ```
