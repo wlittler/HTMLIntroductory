@@ -1,31 +1,28 @@
-00 - Template
+09 - Extending with Frameworks
 ===============
 
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
+> Week 9 allows us to look at a commonly used framework called "Bootstrap". Frameworks allow developers to develop faster by using built in components.
 
 ***
 
-### Syntax
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. 
+### What is bootstrap?
+> Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
-```html
 
-```
+### Include bootstrap in your site
 
-#### Vestibulum ullamcorper mauris
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
+[Bootstrap Instructions](http://getbootstrap.com/getting-started/)
 
-```html
+### Bootstrap components
 
-```
+[Bootstrap Components](http://getbootstrap.com/components/)
 
-***
+### Bootstrap javascripts
 
-### Summary
-> Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula. Ut varius tincidunt libero. Quisque rutrum. Vestibulum ullamcorper mauris at ligula.
+[Bootstrap JavaScripts](http://getbootstrap.com/javascript/)
 
 ***
 
-### Homework 00
+### Homework 09
 
 TBD
