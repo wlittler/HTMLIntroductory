@@ -34,11 +34,9 @@ Although you are not required to purchase a book for this class, we strongly rec
 ***
 
 ### Setup Your Environment
-To develop a web application, you require a code editor and a local web server. 
+We are using CodePen.io for all classwork and assignments. This will make it easy for everyone to learn consistently with no issues. 
 
-The suggested code editor is [Sublime Text](http://www.sublimetext.com/). It is free and can be used on Mac and Windows. 
-
-The suggested web server is [MAMP](http://www.mamp.info/en/). It is free and can be used on Mac and Windows. You don't need to buy the pro version. 
+During the class, we will touch on a couple of tools like MAMP and Sublime. I suggest you take a look at these just to get familiar with them.
 
 ***
 
