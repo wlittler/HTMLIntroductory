@@ -98,7 +98,7 @@ You can take a line of text and <br> break it anywhere.
 
 ### Code example
 
-[http://codepen.io/jsteinmetz/pen/MYEEja.html](http://codepen.io/jsteinmetz/pen/MYEEja.html)
+[http://codepen.io/jsteinmetz/pen/MYEEja](http://codepen.io/jsteinmetz/pen/MYEEja)
 
 ### Homework 01 
 
