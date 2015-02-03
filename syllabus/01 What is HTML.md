@@ -96,6 +96,10 @@ You can take a line of text and <br> break it anywhere.
 ### Summary
 > If you do prep work, or know a little about HTML week 1 will be a time to brush up on those skills. More importantly, a time to ask questions about "why" you do certain things. The "why" is almost as important as the "how".
 
+### Code example
+
+[http://codepen.io/jsteinmetz/pen/MYEEja.html](http://codepen.io/jsteinmetz/pen/MYEEja.html)
+
 ### Homework 01 
 
 1. Lookup the CSS boxmodel - learn about it.
