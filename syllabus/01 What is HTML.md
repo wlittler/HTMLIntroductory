@@ -96,6 +96,10 @@ You can take a line of text and <br> break it anywhere.
 ### Summary
 > If you do prep work, or know a little about HTML week 1 will be a time to brush up on those skills. More importantly, a time to ask questions about "why" you do certain things. The "why" is almost as important as the "how".
 
-### Homework 02 
+### Homework 01 
 
-TBD
+1. Lookup the CSS boxmodel - learn about it.
+2. Install MAMP (or any other local web server)
+3. Install Sublime (or any other code editor program)
+4. Look over CSS properties at w3schools.com
+5. Browse at least 1 well known website and 1 very unknown website. On each of those sites right click and view the page source. When you see the code, look at everything in the <head></head> area. We will discuss. 
