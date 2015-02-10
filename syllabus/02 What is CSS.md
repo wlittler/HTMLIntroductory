@@ -31,7 +31,7 @@ There are two main reasons for separating your form/formatting (CSS) from your f
 <!-- External stylesheet reference -->
 <link href="/css/style.css" rel="stylesheet">
 
-<!-- Inline Styles -->
+<!-- Inline Styles : Please dont ever, ever, ever do this. -->
 <div style="font-weight:bold">This content will be bold.</div>
 ```
 > Standard CSS has 2 available declarations. Classes and ID tags. 
