@@ -5,6 +5,16 @@
 
 ***
 
+### From Code Academy
+
+There are two main reasons for separating your form/formatting (CSS) from your functional content/structure (HTML):
+
+- You can apply the same formatting to several HTML elements without rewriting code (e.g. style="color:red":) over and over
+- You can apply similar appearance and formatting to several HTML pages from a single CSS file (consistency)
+
+
+
+
 ### Syntax
 > There are 3 ways to add CSS to your page. Page Reference, External stylesheets and inline. For best practices, you should never use inline styles.  
 

@@ -100,6 +100,14 @@ You can take a line of text and <br> break it anywhere.
 
 [http://codepen.io/jsteinmetz/pen/MYEEja](http://codepen.io/jsteinmetz/pen/MYEEja)
 
+### Links in discussion
+
+[http://blog.wcgworld.com/2013/02/leveraging-alternative-content-in-responsive-design](http://blog.wcgworld.com/2013/02/leveraging-alternative-content-in-responsive-design)
+
+[http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
+
+[http://johnsteinmetz.net/isotope-typeahead/](http://johnsteinmetz.net/isotope-typeahead/)
+
 ### Homework 01 
 
 1. Lookup the CSS boxmodel - learn about it.
