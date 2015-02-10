@@ -80,7 +80,7 @@ There are two main reasons for separating your form/formatting (CSS) from your f
 ***
 
 ### Summary
-> In ac felis quis tortor malesuada pretium. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Ut leo. Curabitur nisi. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
+> Learning CSS is easy, getting good at it takes time. The amount of time you put into it can really pay off. It is extremely rewarding. 
 
 [CSS Propery References](http://www.w3schools.com/css/css_intro.asp)
 
