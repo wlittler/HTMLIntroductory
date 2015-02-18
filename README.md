@@ -2,7 +2,9 @@ Introduction to HTML
 ========================
    ![HTML](images/html5.png "HTML")   
 
-> This course is designed for students with a interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred. 
+> This course is designed for students with a interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
+
+Pre-Class - [Environment Set Up](syllabus/00 Environments.md)
 
 Week 1 - [What Is HTML?](syllabus/01 What is HTML.md)
 
