@@ -1,4 +1,4 @@
-05 - Page Structure & SEO / Social Media
+04 - Page Structure & SEO / Social Media
 ===============
 
 > Search Engine Optimization (SEO) is the process of optimizing your website pages (code & content) in order to affect your organic page ranking with the major search engines. The way pages are built can positively or negatively affect search engine optimization so it is an important consideration.
@@ -102,6 +102,6 @@ Your title property should never be empty. There should be a title property on e
 
 ***
 
-### Homework 00
+### Homework 04
 
 TBD
