@@ -1,0 +1,207 @@
+body {
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .top {
+        height: 220px;
+        background-color: #f3f3f3;
+    }
+    .footertop {
+        height: 250px;
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 60px;
+    }
+        .footertop button {
+            margin-bottom: 25px;
+            background: #d9534f;
+            border: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 90%;
+        }
+        .footertop p {
+            font-size: 100%;
+            line-height: 1.5;
+        }
+        .footertop span.time {
+            font-size: 80%;
+            text-transform: uppercase;
+            margin-top: 20px;
+            opacity: .7;
+        }
+    .footermid {
+        height: 200px;
+        background-color: #e2e2e2;
+    }
+    .footerbottom {
+        height: 50px;
+        background-color: #000000;
+    }
+    .footerbottom span { 
+        color: #333333;
+        position: relative;
+        top: 20px;
+        opacity: 1;
+        font-size: 80%;
+    }
+    .footerbottom span.pull-left {
+        padding-left: 50px;
+    }
+    .footerbottom span.pull-right {
+        padding-right: 50px;
+    }
+    .footermid input {
+        background-color: #cbcbcb;
+        color: #000000;
+        font-size: 60%;
+        opacity: 1;
+        border-radius: 3px;
+        border: 0;
+        padding: 8px 40px 8px 12px;
+    }
+    .btn-black {
+        background-color: #000000;
+        font-size: 75%;
+        color: #ffffff;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+    .logo {
+        margin-left: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .icons {
+        margin-right: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .icons div {
+        height: 26px;
+        width: 29px;
+        background-image: url('../img/topicons.gif');
+        float: left;
+    }
+    .icons div:hover {
+        cursor: pointer;
+    }
+    .icons .icon1 {
+        background-position: -5px 0;
+    }
+    .icons .icon2 {
+        background-position: -34px 0;
+    }
+    .icons .icon3 {
+        background-position: -63px 0;
+    }
+    .icons .icon4 {
+        background-position: -91px 0;
+    }
+
+    .main {
+        padding: 62px 40px 120px 90px;
+    }
+    .sidebar {
+        padding: 40px 40px 20px 90px
+    }
+    .footermid>div {
+        padding-left: 50px;
+        padding-right: 50px;
+        border: 0px solid #000
+    }
+    .footermid h5 {
+        margin-bottom: 15px;
+        margin-top: 35px;
+        font-weight: 115%;
+    }
+    .footermid p {
+        font-size: 80%;
+        line-height: 2;
+        color: #7c7c7c;
+    }
+    .footermid ul li {
+        font-size: 80%;
+        line-height: 2.2;
+    }
+    .main p {
+        line-height: 1.75;
+        margin-bottom: 30px;
+    }
+    .image {
+        width: 219px;
+        height: 109px;
+        background-color: #000000;
+        margin-bottom: 18px;
+    }
+    .image.hero {
+        width: 769px;
+        height: 268px;
+    }
+    .top h1 {
+        width: 360px;
+        margin: 0px auto;
+        font-weight: bold;
+        position: relative;
+        top: 100px;
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 120%;
+    }
+    h5 {
+        font-weight: bold;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .sidebar ul {
+        margin: 0 0 50px 0;
+        text-transform: uppercase;
+    }
+    .sidebar ul li {
+        margin: 18px 0;
+    }
+    .sidebar caption {
+      margin-top: 18px;
+    }
+    .padme {
+      margin-top: 50px;
+    }
+    .sidebar ul.tweets {
+      text-transform: none;
+      font-size: 13px;
+    }
+    .tweets a {
+      color: #ff0000;
+    }
+    .padmeimage {
+      margin-bottom: 25px;
+    }
+    .sidebar li span {
+      color: #b1b1b1;
+      opacity: .5
+    }
+    .sidebar li span.time {
+      color: #000000;
+      opacity: 1;
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 15px 0;
+    }
+    ul li {
+        padding-left: 0;
+        margin-left: 0;
+    }
