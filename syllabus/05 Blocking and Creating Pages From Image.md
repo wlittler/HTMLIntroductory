@@ -34,7 +34,15 @@
 ***
 
 ### Summary
-> At the conclusion of this week, you should know how to take a design and build it into HTML/CSS
+> At the conclusion of this week, you should know how to take a design and build it into HTML/CSS.
+
+1. Review design
+2. Envision the design as blocks or shapes of areas (rows and columns)
+3. Start from the background and build that. Blocking out areas.
+4. Block out the areas of content that will sit on top of the background.
+5. Start from the top and style each specified blocked area.
+
+Notes: Remember to use H1-H5 designators for content purposes and NOT for design. These are read by search engines and give hierarchy to your page content. 
 
 ***
 
