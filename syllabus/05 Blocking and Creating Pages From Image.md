@@ -28,28 +28,22 @@
 ![DESIGN](/images/blocking-sm.jpg)<br>
 <a href='/assets/assets.zip'>Download assets</a>
 
-
 ### Add customization
 > Once your blocking is complete, you take each blocked row and add CSS and images to style. This is where you begin to see the house begin to take shape and eventually become that beautiful design.
-
 
 ***
 
 ### Summary
 > At the conclusion of this week, you should know how to take a design and build it into HTML/CSS
 
-### Links
-None.
-
-
 ***
 
 ### Homework 05 (Day 1)
 
-Practice using the files in the lesson. I will give you a design and I want you to block it. 
+Practice using the files in the lesson. I will give you a design and I want you to block it. <br>
 <a href='/projects/wk-5-blocking-project'>Blocking Project</a><br>
 <a href='/projects/wk-5-blocking-project-complete'>Blocking Project completed w/content</a>
 
 ### Homework 05 (Day 2)
-Continuation of blocking (partial content added)
+Continuation of blocking (partial content added)<br>
 <a href='/projects/wk-5-blocking-update'>Blocking Project (updated)</a>
