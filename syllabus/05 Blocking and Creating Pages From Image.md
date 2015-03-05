@@ -44,6 +44,12 @@ None.
 
 ***
 
-### Homework 05
+### Homework 05 (Day 1)
 
 Practice using the files in the lesson. I will give you a design and I want you to block it. 
+<a href='/projects/wk-5-blocking-project'>Blocking Project</a><br>
+<a href='/projects/wk-5-blocking-project-complete'>Blocking Project completed w/content</a>
+
+### Homework 05 (Day 2)
+Continuation of blocking (partial content added)
+<a href='/projects/wk-5-blocking-update'>Blocking Project (updated)</a>

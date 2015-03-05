@@ -69,6 +69,14 @@ Note: Use ```<strong>``` when you want to emphasize the content and bold the ter
 Only the word <i>italics</i> is in italics.
 ```
 
+#### a (tag)
+> The ```<a>``` element is called the anchor tag that is commonly used for links. It usually contains a ```href``` attribute that contains a string value for the URL. 
+
+```html
+<a href="http://www.yahoo.com"></a>
+<a href="/about/index.html"></a>
+```
+
 #### Adding a hard return to a line (line break).
 > When you dont need a paragraph but still need a line break, use the ```<br>``` tag.
 
