@@ -50,8 +50,8 @@ Notes: Remember to use H1-H5 designators for content purposes and NOT for design
 
 Practice using the files in the lesson. I will give you a design and I want you to block it. <br>
 <a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/projects/wk5-blocking-project'>Blocking Project</a><br>
-<a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/projects/wk-5-blocking-project-complete'>Blocking Project completed w/content</a>
+<a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/projects/wk5-blocking-project-complete'>Blocking Project completed w/content</a>
 
 ### Homework 05 (Day 2)
 Continuation of blocking (partial content added)<br>
-<a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/projects/wk-5-blocking-update'>Blocking Project (updated)</a>
+<a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/projects/wk5-blocking-update'>Blocking Project (updated)</a>
