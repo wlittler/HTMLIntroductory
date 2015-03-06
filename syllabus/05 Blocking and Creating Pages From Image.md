@@ -17,7 +17,6 @@
 > Before you do anything in code, you have to create a plan for developing the site. Planning correctly will prevent you from having to rework code later and will ensure that you build the site to look as close to the original design. Think of a house being built. When you pass by it in its early stages, you see framing and the base structure. Over time, you will see it become a beautiful home. 
 
 ![DESIGN](/images/design-sm.jpg) <br>
-<a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/blob/master/images/design-lg.jpg'>Download jpg</a><br>
 <a href='https://github.com/AustinCodingAcademy/HTMLIntroductory/tree/master/assets/design.psd'>Download psd</a>
 
 ### Blocking 
