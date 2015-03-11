@@ -18,7 +18,8 @@ Week 4 - [Images, Backgrounds and Formatting](syllabus/04 Images, Backgrounds an
 Week 5 - Business Review: The how, why and what of development<br>
 	   - [Blocking and Creating Pages from Image](syllabus/05 Blocking and Creating Pages From Image.md)
 
-Week 6 - [Mid Term Project & Review](syllabus/06 Mid Term.md)
+Week 6 - [Styling Areas of Blocked Content](syllabus/06 Styling.md)
+[Mid Term Project & Review](syllabus/06 Mid Term.md)
 
 Week 7 - [Other Front End Technology (JSON, JavaScript, AJAX)](syllabus/07 Other Front End Technology.md)
 
