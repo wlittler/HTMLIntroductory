@@ -5,22 +5,33 @@
 
 ***
 
-### Requirement: Valid HTML
+### Scope
+> Using what you have learned in the last 8 weeks, take the supplied design and build it in HTML. No functionality is required, just valid markup (HTML, CSS).
+
+### Assets:
+
+![Final Project](/projects/final-project/src/Intro-Page-Final-Project-sm.jpg)<br>
+<a href="/projects/final-project/src/Intro-Page-Final-Project.psd">Download PSD</a><br>
+<a href="/projects/final-project/src/Intro-Page-Final-Project.jpg">Download JPG</a><br>
+All assets are located in the img folder of the entire project folder:<br>
+[Final Project](projects/final-project)
+
+### Requirements and Specs:
+<a href="/projects/final-project/src/copy.docx">All Copy (WORD)</a><br>
+Primary Color: #c12853
+
+
+### Expectation: Valid HTML
 > Have valid, semantically correct HTML markup. 
 
 Note: Use an online HTML validator to be sure you code is compliant. We are developing to the HTML5 standard. 
 
-### Requirement: Valid CSS
-> Have valid, semantically correct CSS markup in an external file. You can use CSS3 provided that all major browsers support the tags.  
+### Expectation: Valid CSS
+> Have valid, semantically correct CSS markup in an external file. You can use any CSS or CSS3 you want.  
 
-### Requirement: Use a variance of tags in your code that conform to valid markup, easily readable to screen readers. 
 ***
 
 ### Summary
-> At the conclusion of the class, we will have a discussion about what you liked, what you didnt like and anything else you want to discuss. I welcome constructive criticism and know the only way to get better is by analyzing deficiencies in the course. You can shape how we teach. 
+> 
 
 ***
-
-### Homework 00
-
-TBD
