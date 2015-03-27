@@ -32,6 +32,8 @@ Note: Use an online HTML validator to be sure you code is compliant. We are deve
 ***
 
 ### Summary
-> 
+> This project sums up all you have learned over the course and should be representative of what you can do. Your skill levels should be able to complete this assignment based on what we have learned. If you have any questions, please do not hesitate to email your instructors:
 
+John Steinmetz (<a href="mailto:john@austincodingacademy.com">john@austincodingacademy.com</a>)<br>
+Erik Pinto-Zambrano (<a href="mailto:erik@austincodingacademy.com">erik@austincodingacademy.com</a>)<br>
 ***
