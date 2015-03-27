@@ -27,7 +27,7 @@ Week 8 - [What You Need To Know](syllabus/08 What You Need To Know.md)
 
 Week 9 - [Extending With Frameworks](syllabus/09 Extending With Frameworks.md)
 
-Week 10 - [Final Project & Review](syllabus/10 Final.md)
+Week 10 - [Final Project](syllabus/10 Final.md)
 
 ***
 

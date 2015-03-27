@@ -1,4 +1,4 @@
-10 - Final
+10 - Final Project
 ===============
 
 > The course concludes with a final project based on all the information learned over the previous 9 weeks. There will be a few requirements that are required for course completion. Final projects will be reviewed and critiqued by both instructors and by peers. 
@@ -14,7 +14,7 @@
 <a href="/projects/final-project/src/Intro-Page-Final-Project.psd">Download PSD</a><br>
 <a href="/projects/final-project/src/Intro-Page-Final-Project.jpg">Download JPG</a><br>
 All assets are located in the img folder of the entire project folder:<br>
-[Final Project](projects/final-project)
+[Final Project](/projects/final-project)
 
 ### Requirements and Specs:
 <a href="/projects/final-project/src/copy.docx">All Copy (WORD)</a><br>
