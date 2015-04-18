@@ -1,6 +1,7 @@
-Introduction to HTML
+Introduction to HTML & CSS
 ========================
-   ![HTML](images/html5.png "HTML")   
+   ![HTML](images/html5.png "HTML")
+   ![HTML](images/css.png "CSS")
 
 > This course is designed for students with a interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
 
