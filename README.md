@@ -39,19 +39,13 @@ Although you are not required to purchase a book for this class, we strongly rec
 
 ***
 
-### Setup Your Environment
-[MAMP & Sublime](syllabus/00 Environments.md)
-<a href="//www.koding.com">Koding.com</a> 
-
-***
-
 ### Reference
 - [Helpful Links](Links.md)
 
 ***
 
-Instructor: [John Steinmetz](http://johnsteinmetz.net)
+Instructor: [Erik Zambrano](http://erikpz.com)
 
-Phone: (512) 592-1103
+Phone: (850) 980-3402
 
-Email: john@austincodingacademy.com
+Email: erik@austincodingacademy.com
