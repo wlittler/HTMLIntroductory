@@ -48,30 +48,93 @@ Knowing these and the rest of the tags will allow us to build a website. HTML wa
 
 ![Basic example](../images/basic-html-site.JPG)
 
+<hr>
+
 ## Structure
 
 The way a document is structured directs the flow of information. We read from left to right, top to bottom, for example. Let's think of a newspaper for a moment. We can easily identify the headline, subheadings, images, and can tell one story from another. This is because of how the newpaper page is structured. Word documents work the same way. If you have ever written a paper, you can recall you had a structure including headings and subheadings and paragraphs. We do the same thing with our webpages. 
 
-In this first week while covering HTML, we need to also be thinking of how structure is built into the code. An important part of web design is structural. You would not just want to throw a bunch of text onto a page with no heading, no subheadings, no paragraphs...it would not be easy or pleasant to read. 
+In this first week while covering HTML, we need to also be thinking of how structure is built into the code. An important part of web design is structure. You would not just want to throw a bunch of text onto a page with no heading, no subheadings, no paragraphs...it would not be easy or pleasant to read.
+
+###Semantic structure
+
+Before HTML5 came out, development of websites had little self-descriptive structure. The elements needed to be labeled with  an id to determine their semantic function within the page. Ex - `<div id="nav">...</div>`.
+
+This is how most of the sites where structured before semantic elements:
+
+```html
+<body>
+
+  <div id="header">
+    <!-- header content goes in here -->
+  </div>
+
+  <div id="nav">
+    <!-- navigation menu goes in here -->
+  </div>
+
+  <div id="main">
+    <!-- main page content goes in here -->
+  </div>
+
+  <div id="sidebar">
+    <!-- sidebar content goes in here -->
+  </div>
+
+  <div id="footer">
+    <!-- footer content goes in here -->
+  </div>
+
+</body>
+```
+
+As you can see, most of the websites will have this pattern; header, navigation, main section, sidebar, and footer. This is a pattern that is repeated  several times for most of the sites on the web, so the guys at W3C came up with a very similar approach implemented in HTML5. There is more to HTML5 than what I am showing.
+
+Here is how it would look using HTML5 semantic elements. In this case you can determine what the element is about without the use of any attribute making these elements have meaning by themselves.
+
+```html
+<body>
+    <header>
+        <!-- header content goes in here -->
+    </header>
+    <nav>
+        <!-- nav content goes in here -->
+    </nav>
+    <main>
+        <!-- main content goes in here -->
+    </main>
+    <aside>
+        <!-- aside content goes in here, what it used to be sidebar -->
+    </aside>
+    <footer>
+        <!-- footer content goes in here -->
+    </footer>
+</body>
+
+```
+
+<hr>
 
 ## Day 1 - Follow Along Demonstration of elements of HTML page. 
 
-Hands-on exercise: we will cover the elements of a basic webpage. 
+On our first day we will create an HTML file and start adding elements, cover the normal document flow of elements, bring in outside pictures, fonts, and view the code on the browser's developer tool. Hands-on exercise: we will cover the elements of a basic webpage. 
 
 
 ### Homework for day 1 
 
 Visit [W3Schools](http://www.w3schools.com/html/default.asp) and go from the Introduction section through the Comments section but skip the Style section. 
 
-Visit a few webpages and View Source to get a feel for what code looks like for various pages. You will not understand all of it, but you will get a sense of how it is structured. 
+Visit a few webpages and view their source to get a feel for what code looks like for various pages. You will not understand all of it, but you will get a sense of how it is structured. 
 
 Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class.
 
-![Image to come]()
+[Excercise Image](/images/Exercise-day-1.jpg)
+
+<hr>
 
 ## Day 2 - Demo, Q & A with HW, HTML5 Semantic Elements
 
-Today we will talk about the new semantic elements that come with HTML5 and we will structure our website semantically. 
+Today we will talk about the new semantic elements that come with HTML5 and we will structure our website semantically.
 
 ### Homework for day 2
 
@@ -79,4 +142,4 @@ Visit [W3School](http://www.w3schools.com/html/html5_intro.asp) HTML5 section an
 
 Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class.
 
-![Image to come]()
+![Exercise Image](/images/Exercise-day-2.jpg)
