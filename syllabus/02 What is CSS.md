@@ -1,91 +1,59 @@
-01 - What is CSS?
-===============
+# CSS -  Cascade Style Sheet
 
-> CSS stands for Cascading Style Sheets. HTML was never intended to control the formatting of the items on the page, that is why CSS was created. CSS controls both formatting and position of elements on an HTML page.
+We all know that HTML elements helps us to structure the content on the page, grouping it semantically, but we all know that it isn't enough just that. We is when it comes to play CSS to make them more attractive and pleased to the eye by controlling HTML element on where they are positioned, color, and size. All of this is because CSS allow us to create rules that specify the element we what to target and the set of properties that are applied to that element.
 
-***
+## Syntax
 
-### From Code Academy
+Here is a example showing of a CSS rule, it is a rule applied to a p element. Pay close attention to the basic anatomy of this rule because one the common mistakes we make is forgetting to close on of the brackets, missing a semicolon, or a colon.
 
-There are two main reasons for separating your form/formatting (CSS) from your functional content/structure (HTML):
+![CSS rule anatomy](/images/css-rule.jpg)
 
-- You can apply the same formatting to several HTML elements without rewriting code (e.g. style="color:red":) over and over
-- You can apply similar appearance and formatting to several HTML pages from a single CSS file (consistency)
+The selector tells which element the rule can be apply to. The declaration indicates what is going to be styled to the selected element. Property refers to the aspect of the element selected to change. Lastly the value indicates the setting chosen for that property. This seems a lot to memorize but in CSS this is repetitive, so you will encounter doing the same set of principles over and over again.
 
+Now that we know how to create CSS rules we can create several CSS rules for a website. There are three possible ways to implement CSS rules, let's take a look:
 
+### Inline style
 
+At the opening tag of an element the attribute `style=""` is added. Within the quotes of the `style` declaration are added. Ex. - `<p style="color:blue;">This is a paragraph</p>`. This way does not required a selector since the rule is been apply to the element itself. This is one of the least recommended way to do styling. 
 
-### Syntax
-> There are 3 ways to add CSS to your page. Page Reference, External stylesheets and inline. For best practices, you should never use inline styles.  
+### Within HTML page
 
-```html
-<!-- Page Reference -->
-<sytle>
-.element {
-    font-weight: bold;
-    font-size: 1em;
-    padding: 10px 15px 3px 15px;
-}
-</sytle>
-
-<!-- External stylesheet reference -->
-<link href="/css/style.css" rel="stylesheet">
-
-<!-- Inline Styles : Please dont ever, ever, ever do this. -->
-<div style="font-weight:bold">This content will be bold.</div>
-```
-> Standard CSS has 2 available declarations. Classes and ID tags. 
-
-#### Targeting an element with a class
-> Classes should be used on elements that need positioning or visual formatting. Classes are NOT unique.
-> You can use the same class on multiple elements.
-> You can use multiple classes on the same element.
-
-```css
-/* Class */
-/* Periods are used to note classes. */
-.element {
-    
-}
-```
+This is as simple as add a `<style>` element on the page and start writing CSS rules. This element is usually inside the `<head>` element. The limitation is that this style will only be available to this page and if you have multiple pages you would have to copy the styles and add them to the other files making it inefficient.
 
 ```html
-<div class="element"></div>
+
+<head>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph</p>
+</body>
+
 ```
 
-#### Targeting an element with an ID
-> Each element can have only one ID
-> Each page can have only one element with that ID
-> IDs are unique.
+### External CSS file
 
-```css
-/* ID */
-/* Pound signs are used to note IDs. */
-#element {
-    
-}
-```
+This is the most common way to add CSS rules to a website. It requires to have a file with extension .css named whatever you want (I would recommend a meaninful name) and a link tag from the HTML page specifying tthe css file path.
 
 ```html
-<div id="element"></div>
+<!doctype>
+<html>
+    <head>
+        <title>Using a external CSS file</title>
+        <link rel="stylesheet" href="css/my-style.css">
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+    </body>
+</html>
 ```
-
-#### The use of comments
-> Comments are used to make notes in a css document. These are not visible to the user, but are visible when reading the page source. 
 
 ```css
-/* This is a CSS comment */
+ p {
+   color: blue;
+}
 ```
-
-***
-
-### Summary
-> Learning CSS is easy, getting good at it takes time. The amount of time you put into it can really pay off. It is extremely rewarding. 
-
-[CSS Propery References](http://www.w3schools.com/css/css_intro.asp)
-
-***
-
-### Homework 02 
-
-TBD
