@@ -4,7 +4,7 @@ We all know that HTML elements helps us to structure the content on the page, gr
 
 ## Syntax
 
-Here is a example showing of a CSS rule, it is a rule applied to a p element. Pay close attention to the basic anatomy of this rule because one the common mistakes we make is forgetting to close on of the brackets, missing a semicolon, or a colon.
+Here is a example showing of a CSS rule, it is a rule applied to a p element. Pay close attention to the basic anatomy of this rule because one of the common mistakes we make is forgetting to close on of the brackets, missing a semicolon, or a colon.
 
 ![CSS rule anatomy](/images/css-rule.jpg)
 
