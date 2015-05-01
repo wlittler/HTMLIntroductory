@@ -8,11 +8,11 @@ Here is an example of a CSS rule applied to a p element. Pay close attention to 
 
 ![CSS rule anatomy](/images/css-rule.jpg)
 
-The selector tells which element to which the rule applies; in other words, it specifies the element you want to style. The declaration indicates what is going to be styled to the selected element. Property refers to the aspect of the element selected to change (as in color). Value indicates the setting chosen for that property (as in yellow). This seems a lot to memorize but in CSS this is repetitive, so you will be applying the same set of principles over and over again.
+The selector tells which element to which the rule applies; in other words, it specifies the element you want to style. The declaration indicates what is going to be styled to the selected element. Property refers to the aspect of the element selected to change (as in color). Value indicates the setting chosen for that property (as in blue). This seems a lot to memorize but in CSS this is repetitive, so you will be applying the same set of principles over and over again.
 
 ### CSS Selector
 
-In CSS, selectors allows you to target the rules or styles to specific elements. CSS selectors are case sensitive, so they must match exactly in order to be applied. Look at the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp), build your general knowledge of the use of selectors for manipulating elements.
+In CSS, selectors allow you to target the rules or styles to specific elements. CSS selectors are case sensitive, so they must match exactly in order to be applied. Look at the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp), to build your general knowledge of the use of selectors for manipulating elements.
 
 ### CSS Properties
 
@@ -89,16 +89,16 @@ You can add `!important` after any property value and it will not let other rule
 
 ## Day 3 - Applying CSS to HTML elements
 
-We will go over last week's homework, answering any questions you might have. Then we will covering the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM elements.
+We will go over last week's homework, answering any questions you might have. Then we will cover the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM elements.
 
 ### Homework for day 3
 
-Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, just make sure you are using at a sum of at least 30 different properties to those element, so dont just add 30 `color:blue;` declaration because it only counts as 1. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
+Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, but just make sure you are applying at least 30 different properties to those elements. Don't just add 30 `color:blue;` declarations because that only counts as 1 applied property. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
 
 ## Day 4 - In-deep CSS selector
 
-We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence on those.
+We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence in our application of those methods.
 
 ### Homework day 4
 
-To the same HTML project from last day, modify the selectors so you at least use each one 2 times. Here is the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp). Visually your project should not change since you are just rewriting the selectors and not properties.
+Using the same HTML project from the previous day, modify the selectors so you use each one at least 2 times. Here is the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp). Visually, your project should not change since you are just rewriting the selectors and not adding properties.
