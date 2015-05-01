@@ -1,6 +1,6 @@
 # CSS - Cascade Style Sheet
 
-We all know that HTML elements help us to structure the content on the page, grouping it semantically, but we all know that isn't enough by itself. We need CSS to make our pages more attractive and pleasing to the eye by controlling HTML elements with regard to position, color, and size. CSS allows us to create rules that specify the element we want to target and the set of properties that are applied to that element, such that the way the html elements are displayed is defined by CSS. This simplifies web development by removing the need to add tags to every page. 
+We all know that HTML elements help us to structure the content on the page, grouping it semantically, but we all know that isn't enough by itself. We need CSS to make our pages more attractive and pleasing to the eye by controlling HTML elements with regard to position, color, and size. CSS allows us to create rules that specify the element we want to target and the set of properties that are applied to that element, such that the way the HTML elements are displayed is defined by CSS.
 
 ## Syntax
 
@@ -31,7 +31,6 @@ At the opening tag of an element the attribute `style=""` is added. Within the q
 This is as simple as adding a `<style>` element on the page and starting to write your CSS rules. This element is usually inside the `<head>` element. The limitation is that this style will only be available to this page and if you have multiple pages, you would have to copy the styles and add them to the other files, making it an inefficient method of styling.
 
 ```html
-
 <head>
     <style>
         p {
@@ -92,6 +91,14 @@ You can add `!important` after any property value and it will not let other rule
 
 We will go over last week's homework, answering any questions you might have. Then we will covering the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM elements.
 
+### Homework for day 3
+
+Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, just make sure you are using at a sum of at least 30 different properties to those element, so dont just add 30 `color:blue;` declaration because it only counts as 1. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
+
 ## Day 4 - In-deep CSS selector
 
-We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence with those.
+We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence on those.
+
+### Homework day 4
+
+To the same HTML project from last day, modify the selectors so you at least use each one 2 times. Here is the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp). Visually your project should not change since you are just rewriting the selectors and not properties.

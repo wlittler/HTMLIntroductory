@@ -11,7 +11,7 @@ Week 1 - [HTML5 and Structure](syllabus/01 What is HTML.md)
 
 Week 2 - [CSS - Cascade Style Sheet](syllabus/02 What is CSS.md)
 
-Week 3 - [Working with External Files](syllabus/03 External Files.md)
+Week 3 - [Box Model and Floats](syllabus/03 Box Model and Floats.md)
 
 Week 4 - [Images, Backgrounds and Formatting](syllabus/04 Images, Backgrounds and Formatting.md)<br>
 	   - [Page Structure, SEO](syllabus/05 Page Structure SEO.md)
