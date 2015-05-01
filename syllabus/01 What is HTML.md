@@ -4,13 +4,13 @@ This first week we will discover what a website consists of and how the content 
 
 We understand that HTML stands for HyperText Markup Language and I want to emphasize what markup means in context. In simple terms, it is a set of characters that differ from the regular text in the body of a document.
 
-Here is an example showing an HTML tag used on website, the `<p>...</p>` element. Pay close attention to the basic anatomy of this tag because a common mistakes is to forget a piece or forget to close it.
+Here is an example showing an HTML tag used on website, the `<p>...</p>` element. Pay close attention to the basic anatomy of this tag because a common mistake is to forget a piece or forget to close it.
 
 ![Tag anatomy](/images/tags.jpg)
 
->If I wrote `<p This is a paragraph </p>`, you should be able to identify the error, and explain that the opening tag is missing the right bracket.
+>If I write `<p This is a paragraph </p>`, you should be able to identify the error and explain that the opening tag is missing the right bracket.
 
-If you want to dive in and see what other available HTML tags and their use, please review this page on [W3Schools](http://www.w3schools.com/tags/default.asp).
+If you want to dive in and see other available HTML tags and their use, please review this page on [W3Schools](http://www.w3schools.com/tags/default.asp).
 
 ## HTML5
 
@@ -42,7 +42,7 @@ The `<head>` tag is a container for all the head elements. In HTML5, it is optio
 The `<title>` tag will display the text on the user’s browser on the tab or window title.
 
 ### body (tag)
-The `<body>` tag contains all the contents of an HTML document, such as text, hyperlinks `<a></a>`, images `<img>`, tables `<table></table>`, lists `<li></li>`, and more; it includes everything that will be display within the browser.
+The `<body>` tag contains all the contents of an HTML document, such as text, hyperlinks `<a></a>`, images `<img>`, tables `<table></table>`, lists `<li></li>`, and more - it includes everything that will be displayed within the browser.
 
 Having a knowledge of these tags will help you create a website. HTML was designed to structure the content on a page but not the style. That's why if you copy the sample code above you will get a white background and black text at the top left corner.
 
@@ -88,9 +88,9 @@ The following code depicts HTML structure prior to HTML5:
 </body>
 ```
 
-Most websites will have a similar pattern: header, navigation, main section, sidebar, and footer. This pattern became widespread, so the guys at W3C incorporated it into their standar. There is more to HTML5 than what I am showing.
+Most websites will have a similar pattern: header, navigation, main section, sidebar, and footer. This pattern became widespread, so the guys at W3C incorporated it into their standard. There is more to HTML5 than what I am showing.
 
-The following code demostrate how it would look using the HTML5 semantic elements. In this case you can determine what the element is without the use of any attribute making these elements have meaning by themselves.
+The following code demostrates how it would look using the HTML5 semantic elements. In this case you can determine what the element is without the use of any attribute making these elements have meaning by themselves.
 
 ```html
 <body>
@@ -115,15 +115,15 @@ The following code demostrate how it would look using the HTML5 semantic element
 
 <hr>
 
-## Day 1 - Follow Along Demonstration of elements of HTML page. 
+## Day 1 - Follow along demonstration of HTML page elements
 
-On our first day we will create an HTML file and start adding elements, cover the normal document flow of elements, bring in outside pictures, fonts, and view the code on the browser's developer tool throught a hands on exercise.
+On our first day we will create an HTML file and start adding elements, cover the normal document flow of elements, bring in outside pictures, fonts, and view the code on the browser's developer tool through a hands on exercise.
 
 ### Homework for day 1 
 
 Visit [W3Schools](http://www.w3schools.com/html/default.asp) and go from the Introduction section through the Comments section but skip the Style section. 
 
-Visit a few webpages and view their source to get a feel for what code looks like for various pages. You will not understand all of it, but you will get a sense of how it is structured. 
+Visit a few webpages and view their source by right-clicking anywhere on the page and selecting View source from the dropdown menu to get a feel for what code looks like for various pages. You will not understand all of it, but you will get a sense of how it is structured. 
 
 Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class.
 
@@ -133,7 +133,7 @@ Replicate website. This is skills practice and if you get stuck, don't worry, be
 
 ## Day 2 - Demo, Q & A about homework, HTML5 Semantic Elements
 
-We will go over the homework from the first day and solve any roadblock encountered. We will talk about the new semantic elements that come with HTML5 that will allows us to create a website semantically.
+We will go over the homework from the first day and solve any roadblock encountered. We will talk about the new semantic elements that come with HTML5 that allow us to create a website using semantic elements.
 
 ### Homework for day 2
 
