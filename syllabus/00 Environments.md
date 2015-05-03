@@ -16,7 +16,7 @@ Once Brackets is installed, I recommend installation of the following extensions
     </ul>
 
 Here is an example on how to install the "Beautify" extension:
-    ![HTML](/images/installing-extension.gif)
+    ![Installing extension](/images/installing-extension.gif)
     
 ###Folder structure
 To ensure we are all on the same page, I would like you to follow the folder structure I present; this is not required but it would help me to help you in the long run. In your documents folder, create another folder and name it "AustinCodingAcademy."

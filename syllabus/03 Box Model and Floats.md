@@ -1,9 +1,9 @@
-#CSS Box Model
+# CSS Box Model
 
-Box Model is the term used to describe the rules and properties surrounding all HTML elements in the page. CSS treats each of the HMTL elements as if they reside in a box. The two-dimensional box contains, from the outermost layer to the innermost layer, a margin, a border, padding, and content. The box model is a model for adding borders and space around elements. 
- 
+Box Model is the term used to describe the rules and properties surrounding all HTML elements in the page. CSS treats each of the HMTL elements as if they reside in a box. 
+
 ## Box model properties
-There are 4 properties to control the box model of an element. These are content, padding, borders and margins. 
+There are 4 properties to control the box model of an element. These are dimensions, padding, borders and margins. 
  
 ### Dimensions
 These are width and height of an element, since we are working in two dimensions. By default these dimensions are determined by the content, but you can control them by specifying width/height in pixels, percentage, or ems. You can also specify a min width/height or max width/height of an element.
@@ -14,7 +14,7 @@ Padding is the space between the content and the border of an element. Adding pa
 
 ### Border
 
-Every element has a border whether or not it is not visible, because by default is 0px wide. If you have two elements next to each other, their borders will be touching.
+Every element has a border whether or not it is visible. If you have two elements next to each other, their borders will be touching.
 
 ### Margin
 
@@ -26,15 +26,15 @@ Imagine you have a picture frame on a wall. The frame will be the border, the ma
  
 You can also see this in action. Open your default browser and get to the developer tool. From the developer tool, select an element from the website, then select layout, and you will see all the values represented in the box model applied to a given element.
  
- ![Developer tool layout](/images/layout.gif)
- 
- ## Block
+    ![Developer tool layout](/images/layout.gif)
+    
+## Block
  
 We can separate the properties of the box model into two important groups: content block and containing block. These two groups are essential to understanding when an element no longer fits inside the parent element.
- 
- ### Content Block
 
-The width/height, padding, and border of an element determines the final or total dimension of an element.
+### Content Block
+
+The dimensions, padding, and border of an element determines the final or total dimension of an element.
 
 ### Containing Block
 
@@ -44,4 +44,20 @@ In class we will see what happens when either the content block or containing bl
  
 <hr>
 
-#Float
+# Float
+
+The use of floats will allow us to alter the normal document flow of elements by altering their position. The normal document flow position the elements one on top of another, using float the elements will move the right most or left most edge of its parent.
+
+In class we will be floating elements left and right, in consequence we will be dealing with container collapse and column collapse. 
+
+### Container collapse
+
+It happens when the parent element cannot see the childs because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
+
+example...
+
+### Column collapse
+
+A column collapse happends when the elemets floating run out of space from its parent container, the element(s) will resume in another line.
+
+example...
