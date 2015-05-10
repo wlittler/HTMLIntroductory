@@ -46,18 +46,18 @@ In class we will see what happens when either the content block or containing bl
 
 # Float
 
-The use of floats will allow us to alter the normal document flow of elements by altering their position. The normal document flow position the elements one on top of another, using float the elements will move the right most or left most edge of its parent.
+The use of floats will allow us to alter the normal document flow of elements by altering their position. The normal document flow position the elements one on top of another, using float the elements will move them to the rightmost or leftmost edge of its parent.
 
-In class we will be floating elements left and right, in consequence we will be dealing with container collapse and column collapse. 
+In class we will be floating elements left and right and we will see the consequence of dealing with *container collapse* and *column collapse.* 
 
 ### Container collapse
 
-It happens when the parent element cannot see the childs because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
+It occurs when the parent element cannot see the childs because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
 
-example...
+[Example of container collapse](/projects/exercises/week-3/container-collapse.html)
 
 ### Column collapse
 
 A column collapse happends when the elemets floating run out of space from its parent container, the element(s) will resume in another line.
 
-example...
+[Example of column collapse](/projects/exercises/week-3/column-collapse.html)
