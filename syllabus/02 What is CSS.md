@@ -1,6 +1,6 @@
 # CSS - Cascade Style Sheet
 
-We all know that HTML elements help us to structure the content on the page, grouping it semantically, but we all know that isn't enough by itself. We need CSS to make our pages more attractive and pleasing to the eye by controlling HTML elements with regard to position, color, and size. CSS allows us to create rules that specify the element we want to target and the set of properties that are applied to that element, such that the way the HTML elements are displayed is defined by CSS.
+HTML elements help us to structure the content on the page, grouping it semantically, but that isn't enough by itself. We need CSS to make our pages more attractive and pleasing to the eye by controlling HTML elements with regard to position, color, and size. CSS allows us to create rules that specify the element we want to target and the set of properties that are applied to that element, such that the way the HTML elements are displayed is defined by CSS.
 
 ## Syntax
 
