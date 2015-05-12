@@ -5,17 +5,21 @@ Bootstrap is one of the most popular frameworks for developing responsive websit
 ## Getting started
 
 To get started download the [zip file](https://github.com/twbs/bootstrap/releases/download/v3.3.4/bootstrap-3.3.4-dist.zip). This zip file has 3 folders, css, js, and fonts.
+
 ![Bootstrap folders](/images/bootstrap-folders.jpg)
 
 Inside the css folder you will find six files, we will only use `bootstrap.min.css`
+
 ![Bootstrap minify css file](/images/bootstrap-min-css.jpg)
 
 Inside the js folder you will find 3 files, we will only use `bootstrap.min.js`
+
 ![Bootstrap minify js file](/images/bootstrap-min-js.jpg)
 
 For the fonts, we are not going to use them but if you wish to know more, visit this [page](http://getbootstrap.com/components/#glyphicons).
 
 All you got to do is copy those files into your project's css and js folder.
+
 ![Project using bootstrap](/images/project-bootstrap.jpg)
 
 ## What we will cover on Bootstrap
