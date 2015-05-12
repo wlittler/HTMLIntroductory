@@ -25,9 +25,9 @@ Imagine you have a picture frame on a wall. The frame will be the border, the ma
 ![Box Model example](/images/box-model.jpg)
  
 You can also see this in action. Open your default browser and get to the developer tool. From the developer tool, select an element from the website, then select layout, and you will see all the values represented in the box model applied to a given element.
- 
-    ![Developer tool layout](/images/layout.gif)
-    
+
+![Developer tool layout](/images/developer-tool.gif)
+
 ## Block
  
 We can separate the properties of the box model into two important groups: content block and containing block. These two groups are essential to understanding when an element no longer fits inside the parent element.
