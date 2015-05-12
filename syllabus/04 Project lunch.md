@@ -46,4 +46,4 @@ There will be a total of 4 classes to work on. Each day we will focus on solving
 
 Here the wireframe we will be using to create our project. Feel free to arrange those sections to meet your needs.
 
-![Wireframe](images/wireframe-final-project.jpg)
+![Wireframe](/images/wireframe-final-project.jpg)
