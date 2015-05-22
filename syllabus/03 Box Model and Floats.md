@@ -54,10 +54,10 @@ In class we will be floating elements left and right and we will see the consequ
 
 It occurs when the parent element cannot see the childs because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
 
-[Example of container collapse](/projects/exercises/week-3/container-collapse.html)
+[Example of container collapse](/exercises/week-3/container-collapse.html)
 
 ### Column collapse
 
 A column collapse happends when the elemets floating run out of space from its parent container, the element(s) will resume in another line.
 
-[Example of column collapse](/projects/exercises/week-3/column-collapse.html)
+[Example of column collapse](/exercises/week-3/column-collapse.html)
