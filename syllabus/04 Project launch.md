@@ -1,8 +1,8 @@
-# Project Lunch
+# Project Launch
 
 Now that we have covered the core concepts, we are ready to start building our first website. We will start from scratch, create a folder structure, add HTML and CSS files, and start writing code.
 
-It is very important that you choose a site type: organization, company, or personal site. Gather as much information and images as you can; they will help us to create the website. Having real content instead of using lorem ipsum and gray images makes a difference on the final product.
+It is very important that you choose a site type: organization, company, or personal site. Gather as much information and images as you can; they will help us to create the website. Having real content instead of using lorem ipsum and gray images makes a difference in the final product.
 
 ## Project Structure
 
@@ -20,11 +20,11 @@ Each section of your organization/company/product will include the content you c
 
 #### Landing section
 
-Here we will be adding a picture of the organization/company/product, along with a title, subtitle and a button. The idea is to in a few words tell what the organization/company/product is all about.
+Here we will be adding a picture of the organization/company/product, along with a title, subtitle and a button. The idea is to tell in a few words what the organization/company/product is all about.
 
 #### Welcome/About section
 
-In this section we will be adding more information to the visitor about the organization/company/product that could not be addressed on the landing page. We are going to use a single image and maybe two or three paragraphs.
+In this section we will be adding more information for the visitor about the organization/company/product that could not be addressed on the landing page. We are going to use a single image and maybe two or three paragraphs.
  
 #### Column section
 
@@ -40,10 +40,10 @@ Call to action is a term used for elements in the website that require user inte
 
 ## Working in class
 
-There will be a total of 4 classes to work on. Each day we will focus on solving each section. Landing and Welcome will be done on a single day since those sections are the easiest one. As we are working along during these days, what we have learn will come into practice, so I recommend you review what we have learn the past three week before coming to class. 
+There will be a total of 4 classes devoted to this project. Each day we will focus on solving the issues that arise with each section. Landing and Welcome will be done in a single day since those sections are the easiest ones. As we are working along during these days, we will put into practice what we have learned, so I recommend you review what we have learned in the past three weeks before coming to class. 
 
 ## Wireframe
 
-Here the wireframe we will be using to create our project. Feel free to arrange those sections to meet your needs.
+Here is the wireframe we will be using to create our project. Feel free to arrange those sections to meet your needs.
 
 ![Wireframe](/images/wireframe-final-project.jpg)
