@@ -3,9 +3,11 @@
 Box Model is the term used to describe the rules and properties surrounding all HTML elements in the page. CSS treats each of the HMTL elements as if they reside in a box. 
 
 ## Box model properties
+
 There are 4 properties to control the box model of an element. These are dimensions, padding, borders and margins. 
  
 ### Dimensions
+
 These are width and height of an element, since we are working in two dimensions. By default these dimensions are determined by the content, but you can control them by specifying width/height in pixels, percentage, or ems. You can also specify a min width/height or max width/height of an element.
 
 ### Padding
@@ -46,7 +48,7 @@ In class we will see what happens when either the content block or containing bl
 
 # Float
 
-The use of floats will allow us to alter the normal document flow of elements by altering their position. The normal document flow position the elements one on top of another, using float the elements will move them to the rightmost or leftmost edge of its parent.
+The use of floats will allow us to alter the normal document flow of elements by altering their position. The normal document flow positions the elements one on top of another, but using float on an element will move it to the rightmost or leftmost edge of its parent.
 
 In class we will be floating elements left and right and we will see the consequence of dealing with *container collapse* and *column collapse.* 
 
@@ -58,6 +60,6 @@ It occurs when the parent element cannot see the childs because they are removed
 
 ### Column collapse
 
-A column collapse happends when the elemets floating run out of space from its parent container, the element(s) will resume in another line.
+A column collapse happens when the floating element runs out of space from its parent container so that the element(s) will resume in another line.
 
 [Example of column collapse](/exercises/week-3/column-collapse.html)
