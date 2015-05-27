@@ -1,91 +1,104 @@
-01 - What is CSS?
-===============
+# CSS - Cascade Style Sheet
 
-> CSS stands for Cascading Style Sheets. HTML was never intended to control the formatting of the items on the page, that is why CSS was created. CSS controls both formatting and position of elements on an HTML page.
+HTML elements help us to structure the content on the page, grouping it semantically, but that isn't enough by itself. We need CSS to make our pages more attractive and pleasing to the eye by controlling HTML elements with regard to position, color, and size. CSS allows us to create rules that specify the element we want to target and the set of properties that are applied to that element, such that the way the HTML elements are displayed is defined by CSS.
 
-***
+## Syntax
 
-### From Code Academy
+Here is an example of a CSS rule applied to a p element. Pay close attention to the basic anatomy of this rule because some of the common mistakes we make include forgetting to close one of the brackets, missing a semicolon, or leaving out a colon.
 
-There are two main reasons for separating your form/formatting (CSS) from your functional content/structure (HTML):
+![CSS rule anatomy](/images/css-rule.jpg)
 
-- You can apply the same formatting to several HTML elements without rewriting code (e.g. style="color:red":) over and over
-- You can apply similar appearance and formatting to several HTML pages from a single CSS file (consistency)
+The selector tells which element to which the rule applies; in other words, it specifies the element you want to style. The declaration indicates what is going to be styled to the selected element. Property refers to the aspect of the element selected to change (as in color). Value indicates the setting chosen for that property (as in blue). This seems a lot to memorize but in CSS this is repetitive, so you will be applying the same set of principles over and over again.
 
+### CSS Selector
 
+In CSS, selectors allow you to target the rules or styles to specific elements. CSS selectors are case sensitive, so they must match exactly in order to be applied. Look at the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp), to build your general knowledge of the use of selectors for manipulating elements.
 
+### CSS Properties
 
-### Syntax
-> There are 3 ways to add CSS to your page. Page Reference, External stylesheets and inline. For best practices, you should never use inline styles.  
+The properties in CSS define how the styles will appear on your web page. For example, CSS font properties define all aspects of font, such as font size, boldness, and family. Here is a [list of properties ](http://www.w3schools.com/cssref/default.asp), so you can build your general knowledge of what settings can be changed.
 
-```html
-<!-- Page Reference -->
-<sytle>
-.element {
-    font-weight: bold;
-    font-size: 1em;
-    padding: 10px 15px 3px 15px;
-}
-</sytle>
+## CSS implementation
 
-<!-- External stylesheet reference -->
-<link href="/css/style.css" rel="stylesheet">
+Now that we know how to create CSS rules we can create several CSS rules for a website. There are three possible ways to implement CSS rules. Let's take a look:
 
-<!-- Inline Styles : Please dont ever, ever, ever do this. -->
-<div style="font-weight:bold">This content will be bold.</div>
-```
-> Standard CSS has 2 available declarations. Classes and ID tags. 
+### Inline style
 
-#### Targeting an element with a class
-> Classes should be used on elements that need positioning or visual formatting. Classes are NOT unique.
-> You can use the same class on multiple elements.
-> You can use multiple classes on the same element.
+At the opening tag of an element the attribute `style=""` is added. Within the quotes of the `style` attribute, declarations are added. Ex. - `<p style="color:blue;">This is a paragraph</p>`. This way does not require a selector since the rule is being applied to the element itself. This is one of the least recommended ways to do styling. 
 
-```css
-/* Class */
-/* Periods are used to note classes. */
-.element {
-    
-}
-```
+### Within HTML page
+
+This is as simple as adding a `<style>` element on the page and starting to write your CSS rules. This element is usually inside the `<head>` element. The limitation is that this style will only be available to this page and if you have multiple pages, you would have to copy the styles and add them to the other files, making it an inefficient method of styling.
 
 ```html
-<div class="element"></div>
+<head>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph</p>
+</body>
+
 ```
 
-#### Targeting an element with an ID
-> Each element can have only one ID
-> Each page can have only one element with that ID
-> IDs are unique.
+### External CSS file
 
+This is the most common way to add CSS rules to a website. It requires you to have a file with extension .css named whatever you want (I would recommend a meaningful name) and a link tag from the HTML page specifying the file path. This is the most efficient way of integrating CSS to your HTML pages.
+
+HTML file:
+```html
+<!doctype>
+<html>
+    <head>
+        <title>Using a external CSS file</title>
+        <link rel="stylesheet" href="css/my-style.css">
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+    </body>
+</html>
+```
+
+CSS file:
 ```css
-/* ID */
-/* Pound signs are used to note IDs. */
-#element {
-    
+ p {
+   color: blue;
 }
 ```
 
-```html
-<div id="element"></div>
-```
+## CSS Rule Cascade
 
-#### The use of comments
-> Comments are used to make notes in a css document. These are not visible to the user, but are visible when reading the page source. 
+What would happen if there are two or more rules applying to the same element? It is important to understand which takes precedence.
 
-```css
-/* This is a CSS comment */
-```
+### Last rule
 
-***
+If two or more selectors are the same and they all have the same property but with different values, the last one will take place.
 
-### Summary
-> Learning CSS is easy, getting good at it takes time. The amount of time you put into it can really pay off. It is extremely rewarding. 
+### Specificity 
 
-[CSS Propery References](http://www.w3schools.com/css/css_intro.asp)
+If a selector is more specific than the others, the more specific will take place over the more general selector.
 
-***
+### Important
 
-### Homework 02 
+You can add `!important` after any property value and it will not let other rules apply a different value even if they are the last rule or more specific.
 
-TBD
+<hr>
+
+## Day 3 - Applying CSS to HTML elements
+
+We will go over last week's homework, answering any questions you might have. Then we will cover the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM elements.
+
+### Homework for day 3
+
+Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, but just make sure you are applying at least 30 different properties to those elements. Don't just add 30 `color:blue;` declarations because that only counts as 1 applied property. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
+
+## Day 4 - In-deep CSS selector
+
+We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence in our application of those methods.
+
+### Homework day 4
+
+Using the same HTML project from the previous day, modify the selectors so you use each one at least 2 times. Here is the [selectors list](http://www.w3schools.com/cssref/css_selectors.asp). Visually, your project should not change since you are just rewriting the selectors and not adding properties.

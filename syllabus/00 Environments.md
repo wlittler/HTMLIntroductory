@@ -1,76 +1,39 @@
-Environment Setup & Code Editor
-===============
+#Environment Setup & Code Editor
 
-Setting up your local environment
+##Setting up your local environment
 
 These are instructions for setting up a local environment to build websites. If you set this up, you will have the ability to build and test your personal projects without needing internet access. 
 
-Applications
-In order to build a local environment quickly, I have selected the following applications to get you started. As you develop your skills, you may find other applications that fit your style. 
+###Code Editor
+What I would like for you to do first is install <a href='http://brackets.io/'>Brackets</a> on your machine (Mac or Windows). The installation is pretty straight forward. Once the installation is completed and you have run brackets for the first time it will look something like this:
+    ![Brackets](/images/brackets.JPG)
 
-<a href='http://www.mamp.info/'>Install MAMP (basic version is fine, you don't need the pro version)</a> <br>
-<a href='http://www.sublimetext.com/3'>Install SublimeText 3</a>
+Once Brackets is installed, I recommend installation of the following extensions:
+    <ul>
+        <li>Beautify - Format JavaScript, HTML, and CSS files.</li>
+        <li>Code Folding - Brace folding, tag folding, indent folding and multi-line comment folding.</li>
+        <li>Themes for Brackets - A theme-pack that styles the whole editor.</li>
+    </ul>
 
+Here is an example on how to install the "Beautify" extension:
+    ![Installing extension](/images/installing-extension.gif)
+    
+###Folder structure
+To ensure we are all on the same page, I would like you to follow the folder structure I present; this is not required but it would help me to help you in the long run. In your documents folder, create another folder and name it "AustinCodingAcademy."
 
-*** Create a folder for all your projects ***
-Be sure to create a folder on your computer that will have all your projects in it. Be sure to account, not just for 1 single application, but for a number of projects. I would create the following folder structure to start:
+If you add more projects, add them all to the "AustinCodingAcademy" folder. When you are done, you will have an organized folder structure like this (and being organized is something you want to start out with anyway):
 
-"/desktop/development/project1/"
-
-If you add more projects, add them all to the "development" folder. When you are done, you will have an organized folder structure like this...
-
-/desktop<br>
-&nbsp;&nbsp;&nbsp;/development<br>
+/documents<br>
+&nbsp;&nbsp;&nbsp;/AustinCodingAcademy<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/project1<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/project2<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/project3<br>
 &nbsp;&nbsp;&nbsp;&nbsp;...<br>
+    ![HTML](/images/folder-structure.JPG)
 
-*** Setting up MAMP, a free webserver ***
-Run the installer. 
-After successful installation you can launch your local servers. Start MAMP and click on the Start Servers button. In the status display in the upper right corner, the launch status of the servers is displayed. If necessary, you will be asked for your administrator
-password.
+> It is important to note that these are just examples of folder names that you will file in the folder "AustinCodingAcedemy".
 
-![MAMP](/images/mamp-preferences.png) 
-
-The web server (Apache) starts by default on port 8888, the database server (MySQL)
-on port 8889. Be sure to change this by setting the web server to port 80 and the MySQL server to 3306. Some newer versions of MAMP also allow for NGNX configuration. If so, set that port to 81.
-
-![HTML](/images/mamp-ports.png) 
-
-Next, for the project you want to view in th browser, you have to point MAMP to the folder.
-Click on to select where your html/PHP files and images are stored. This directory is called Document Root. The default Document Root in MAMP is:
-/Applications/MAMP/htdocs but you should change this to /desktop/development/project1 to view project1 or /desktop/development/project2 to view project2, etc.
-
-![HTML](/images/mamp-document-root.png)
-
-That is it, once you have all these steps complete, you can pull up localhost/ on your computer and view the webpage in your project1 folder or whatever project you selected in the document root section above. 
-
-*** Setting up Sublime ***
-Once Sublime is installed read this Google Developer write up on using it. It also gives some handy plugins you can install with it. 
-
-https://developers.google.com/web/fundamentals/tools/setup/editor?hl=en
-
-When you are in sublime, first you need to create a project. The page will be empty. 
-
-![HTML](/images/sublime-blank.png)
-
-Go to Project > "Add Folder To Project" and open /desktop/development/project1. You will then see Sublime create a sidebar with that folder structure.
-
-![HTML](/images/sublime-add-folder.png)
-
-![HTML](/images/sublime-sidebar.png)
-
-
-
-Then add your standard project folders into your project1 folder. I like to have folders for the files that could be in the project. 
-
-/project1
-	/css
-	/js
-	/img
-
-Create your first file (index.html) in the root of the project1 folder and when you open a web browser and type localhost/ in the URL bar, that file will be displayed!
-
-
+###Adding a project folder to Brackets
+Now that we have Brackets installed and the folder structure, we are going to add some of the project folders to the sidebar and go over how to navigate between these folders. This will allow us to access files and folders within the project easily.
+    ![Add folder to Sidebar](/images/add-folder-sidebar.gif)
 

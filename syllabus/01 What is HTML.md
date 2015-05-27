@@ -1,125 +1,144 @@
-01 - What is HTML?
-===============
+# HTML - HyperText Markup Language
 
-> HTML stands for *HyperText Markup Language*. HTML is the computer language used to build the structure of a web page. HTML gives you the power to add text and images to a web page. 
+This first week we will discover what a website consists of and how the content is structured. We will create html files, write code in them, and see how the browser interprets it.
 
-***
+We understand that HTML stands for HyperText Markup Language and I want to emphasize what markup means in context. In simple terms, it is a set of characters that differ from the regular text in the body of a document.
 
-### HTML Page Syntax (HTML5)
+Here is an example showing an HTML tag used on website, the `<p>...</p>` element. Pay close attention to the basic anatomy of this tag because a common mistake is to forget a piece or forget to close it.
+
+![Tag anatomy](/images/tags.jpg)
+
+>If I write `<p This is a paragraph </p>`, you should be able to identify the error and explain that the opening tag is missing the right bracket.
+
+If you want to dive in and see other available HTML tags and their use, please review this page on [W3Schools](http://www.w3schools.com/tags/default.asp).
+
+## HTML5
+
+Now that we know what a tag is, we are ready to start coding our first webpage. This course is focused on the use of HTML5. Since the `www` was invented in 1989, HTML has evolved into a more robust language with more focus on the structure of the content.
+
+In order to have the most simple/basic semantic website we only need a few tags. Take a look at this snippet
 
 ```html
-<!DOCTYPE html> 
+<!doctype html>
 <html>
-<head>
-    <title>Page Title</title>
-</head>
-<body>
-    The page content goes here.
-</body>
+    <head>
+        <title>A simple HTML 5 page</title>
+    </head>
+    <body>
+        Content goes here.
+    </body>
 </html>
 ```
+### doctype
+The `<!doctype>` declaration is not an HTML tag but an instruction to the agent or web browser on what version of HTML web page is using. In this class, we will focus on the HTML5 doctype.
 
-#### Doctype
-> The ```<!DOCTYPE>``` declaration is not an HTML tag but an instruction to the web browser about what version of HTML the page is. For this class, we will focus on the HTML5 doctype.
+### html (tag)
+The `<html>`tag is the container for the entire HTML code that you write. Everything between `<html>` and `</html>` is HTML code and will be displayed or used on the webpage. The html element is `<html></html>` meaning that the element consists of the opening and closing tag and whatever is between them, although you will hear some people use the words tag and element interchangeably. 
 
-```html
-<!DOCTYPE html>
-```
+### head (tag)
+The `<head>` tag is a container for all the head elements. In HTML5, it is optional but strongly recommended. Here we can link CSS files, font, and more. 
 
-#### head (tag)
-> The ```<head>``` element is a container for all the head elements. In HTML5, it is optional but strongly recommended.
+### title (tag)
+The `<title>` tag will display the text on the user’s browser on the tab or window title.
 
-```html
-<head></head>
-```
+### body (tag)
+The `<body>` tag contains all the contents of an HTML document, such as text, hyperlinks `<a></a>`, images `<img>`, tables `<table></table>`, lists `<li></li>`, and more - it includes everything that will be displayed within the browser.
 
-#### body (tag)
-> The ```<body>``` element contains all the contents of an HTML document, such as text, hyperlinks ```<a></a>```, images ```<img>```, tables ```<table></table>```, lists ```<li></li>```, etc.
+Having a knowledge of these tags will help you create a website. HTML was designed to structure the content on a page but not the style. That's why if you copy the sample code above you will get a white background and black text at the top left corner.
 
-```html
-<body></body>
-```
+![Basic example](../images/basic-html-site.JPG)
 
-#### Making words or lines bold.
-> The preferred way of making content bold.
+<hr>
 
-```html
-<strong>This whole line of text will be bold.</strong>
+## Structure
 
-Only the word <strong>bold</strong> is emphasized.
-```
+The way a document is structured directs the flow of information. We read from left to right, top to bottom. Think of a newspaper. We can easily identify the headline, subheadings, images, and can tell one story from another. This is because of how the newspaper page is structured. Word documents work the same way. If you have ever written a paper, you can recall you had a structure including headings, subheadings and paragraphs. We do the same thing with our webpages. 
 
-#### Making words or lines bold (alternate method).
-> The ```<b>``` tag can also be used to bold an item.
+In this first week while covering HTML, we need to keep in mind of how structure is built into the code. Structure is key. You would not just want to throw a bunch of text onto a page with no heading, no subheadings, no paragraphs...it would not be easy or pleasant to read.
 
-```html
-<b>This whole line of text will be bold.</b>
+###Semantic structure
 
-Only the word <b>bold</b> is emphasized.
-```
+Before HTML5 came out, development of websites had little self-descriptive structure. The elements needed to be labeled with  an id to determine their semantic function within the page. Ex - `<div id="nav">...</div>`.
 
-Note: Use ```<strong>``` when you want to emphasize the content and bold the term(s). Use ```<b>``` when you just want it bold but stressing the content is unnecessary.
-
-#### Making words or lines italicized.
-> Italics can be used where necessary.
+The following code depicts HTML structure prior to HTML5:
 
 ```html
-<i>This whole line of text will be in italics.</i>
+<body>
 
-Only the word <i>italics</i> is in italics.
+  <div id="header">
+    <!-- header content goes in here -->
+  </div>
+
+  <div id="nav">
+    <!-- navigation menu goes in here -->
+  </div>
+
+  <div id="main">
+    <!-- main page content goes in here -->
+  </div>
+
+  <div id="sidebar">
+    <!-- sidebar content goes in here -->
+  </div>
+
+  <div id="footer">
+    <!-- footer content goes in here -->
+  </div>
+
+</body>
 ```
 
-#### a (tag)
-> The ```<a>``` element is called the anchor tag that is commonly used for links. It usually contains a ```href``` attribute that contains a string value for the URL. 
+Most websites will have a similar pattern: header, navigation, main section, sidebar, and footer. This pattern became widespread, so the guys at W3C incorporated it into their standard. There is more to HTML5 than what I am showing.
+
+The following code demostrates how it would look using the HTML5 semantic elements. In this case you can determine what the element is without the use of any attribute making these elements have meaning by themselves.
 
 ```html
-<a href="http://www.yahoo.com"></a>
-<a href="/about/index.html"></a>
+<body>
+    <header>
+        <!-- header content goes in here -->
+    </header>
+    <nav>
+        <!-- nav content goes in here -->
+    </nav>
+    <main>
+        <!-- main content goes in here -->
+    </main>
+    <aside>
+        <!-- aside content goes in here, what it used to be sidebar -->
+    </aside>
+    <footer>
+        <!-- footer content goes in here -->
+    </footer>
+</body>
+
 ```
 
-#### Adding a hard return to a line (line break).
-> When you dont need a paragraph but still need a line break, use the ```<br>``` tag.
+<hr>
 
-```html
-You can take a line of text and <br> break it anywhere.
+## Day 1 - Follow along demonstration of HTML page elements
 
-```
+On our first day we will create an HTML file and start adding elements, cover the normal document flow of elements, bring in outside pictures, fonts, and view the code on the browser's developer tool through a hands on exercise.
 
-#### Adding paragraphs
-> If you need structured paragraphs, you can use the ```<p>``` tag. 
+### Homework for day 1 
 
-```
-<p>This is the content that will display as a paragraph. You can add as many sentences as you need.</p>
+Visit [W3Schools](http://www.w3schools.com/html/default.asp) and go from the Introduction section through the Comments section but skip the Style section. 
 
-<p>You can also have as many paragraphs as necessary.</p>
-```
+Visit a few webpages and view their source by right-clicking anywhere on the page and selecting View source from the dropdown menu to get a feel for what code looks like for various pages. You will not understand all of it, but you will get a sense of how it is structured. 
 
-#### The use of comments
-> Comments are used to make notes in a page. These are not visible to the user, but are visible when reading the page source. 
+Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class.
 
-```html
-<!-- This is an HTML comment -->
-```
+[Excercise Image](/images/Exercise-day-1.jpg)
 
-### Summary
-> If you do prep work, or know a little about HTML week 1 will be a time to brush up on those skills. More importantly, a time to ask questions about "why" you do certain things. The "why" is almost as important as the "how".
+<hr>
 
-### Code example
+## Day 2 - Demo, Q & A about homework, HTML5 Semantic Elements
 
-[http://codepen.io/jsteinmetz/pen/MYEEja](http://codepen.io/jsteinmetz/pen/MYEEja)
+We will go over the homework from the first day and solve any roadblock encountered. We will talk about the new semantic elements that come with HTML5 that allow us to create a website using semantic elements.
 
-### Links in discussion
+### Homework for day 2
 
-[http://blog.wcgworld.com/2013/02/leveraging-alternative-content-in-responsive-design](http://blog.wcgworld.com/2013/02/leveraging-alternative-content-in-responsive-design)
+Visit [W3School](http://www.w3schools.com/html/html5_intro.asp) HTML5 section and go from the introduction through the Style Guide section.
 
-[http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
+Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class. Remember to structure it semantically and not just visually.
 
-[http://johnsteinmetz.net/isotope-typeahead/](http://johnsteinmetz.net/isotope-typeahead/)
-
-### Homework 01 
-
-1. Lookup the CSS boxmodel - learn about it.
-2. Install MAMP (or any other local web server)
-3. Install Sublime (or any other code editor program)
-4. Look over CSS properties at w3schools.com
-5. Browse at least 1 well known website and 1 very unknown website. On each of those sites right click and view the page source. When you see the code, look at everything in the <head></head> area. We will discuss. 
+[Exercise Image](/images/exercise-day-2.jpg)
