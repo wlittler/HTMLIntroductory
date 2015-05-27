@@ -127,7 +127,7 @@ Visit a few webpages and view their source by right-clicking anywhere on the pag
 
 Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class.
 
-[Excercise Image](/images/exercise-day-1.jpg)
+[Excercise Image](/images/Exercise-day-1.jpg)
 
 <hr>
 
@@ -141,4 +141,4 @@ Visit [W3School](http://www.w3schools.com/html/html5_intro.asp) HTML5 section an
 
 Replicate website. This is skills practice and if you get stuck, don't worry, because we will go over this in the next class. Remember to structure it semantically and not just visually.
 
-![Exercise Image](/images/exercise-day-2.jpg)
+[Exercise Image](/images/exercise-day-2.jpg)
