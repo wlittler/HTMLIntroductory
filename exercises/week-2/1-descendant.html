@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Descendant exercise</title>
+    <style>
+        
+        hr {
+            clear: both; 
+        }
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+            background: #533A71;
+        }
+        
+        .container section {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 5px;
+        }
+        
+        section p {
+            color: #F2E966;
+        }
+        
+        section ul {
+            float: right;
+            list-style: none;
+        }
+        
+        li a {
+            float: left;
+            margin-right: 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            color: #F2E966;
+            text-decoration: underline;
+        }
+        
+        section div {
+            width: 50px;
+            height: 50px;
+            background: #6184D8;
+            margin-bottom: 25px;
+        }
+        
+        section div:nth-child(odd) {
+            padding: 5px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <p>This paragraph is a child of a <b>section</b>. This paragraph is not been selected by using any id, class, just <b>descendant</b>. Bacon ipsum dolor amet frankfurter ribeye ham picanha pastrami chicken jerky, meatball cow. Brisket ham doner corned beef jerky sausage. Ham hock ham drumstick short loin turducken pig. Sirloin sausage cupim, filet mignon boudin biltong landjaeger jowl beef kevin cow ham pork chop short loin.</p>
+        </section>
+        <hr>
+        <section>
+            <p>The following links are a grouped as list items. The is no id, class, just <b>descendant</b> to modify those elements</p>
+            <ul>
+                <li>
+                    <a href="#">Link 1</a>
+                </li>
+                <li>
+                    <a href="#">Link 2</a>
+                </li>
+                <li>
+                    <a href="#">Link 3</a>
+                </li>
+                <li>
+                    <a href="#">Link 4</a>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <p>These are 6 div in without id or class, just descendat selector. Use psudo selector to affect only even divs</p>
+            <div>div 1</div>
+            <div>div 2</div>
+            <div>div 3</div>
+            <div>div 4</div>
+            <div>div 5</div>
+            <div>div 6</div>
+        </section>
+    </div>
+</body>
+
+</html>
