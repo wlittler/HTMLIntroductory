@@ -1,0 +1,88 @@
+/*One of the fonts imported on index.html is been used here*/
+html {
+   font-family: 'Open Sans', sans-serif;
+}
+.fluid-container {
+    width: 98%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+/*Navigation*/
+
+/***
+Remember that nav.container-fluid is different from nav .container-fluid
+Having that space in betwwen mean decendant.
+nav.contaniner-fluid -> Select a <nav> that has a class="container-fluid"
+nav .contaniner-fluid -> Find a nav, select any child that has a class="container-fluid"
+***/
+nav.container-fluid {
+    background-color: #000;
+    opacity: .5;    
+}
+/****
+Notice how everything that I am modifying inside <nav> starts with nav in the CSS selector.
+This will help me visually to know what I am making changes to, and also narrows the selection.
+For example just having 
+
+ul li {
+    some-prorty: some-value;
+}
+
+That is too vague and will affect every single ul li you have on your page. By adding nav the selection
+becomes more 'personal', 'limited', or specific to what I'm trying to accomplish
+******/
+nav h1, nav ul, nav ul li {
+    float: left;
+}
+nav h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Slabo 27px';
+}
+nav ul {
+    list-style: none;
+    line-height: 45px;
+}
+nav ul li {
+    margin-left: 15px;   
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*landing section*/
+/***
+Again, notice how everything I am modifying within <section id="landing">
+has #landing as a pre-fix. Same concept has I described above with <nav>
+****/
+#landing {
+    background: url('../img/cat-dog.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    color: #fff;
+    padding: 1px;
+}
+#landing div {
+    margin-top: 250px;
+}
+#landing h2 {
+    font-size: 51px;
+}
+#landing p {
+    font-size: 25.5px;
+    margin-bottom: 80px;
+}
+#landing a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid #fff;
+
+}
