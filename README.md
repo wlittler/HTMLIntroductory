@@ -13,7 +13,7 @@ Week 2 - [CSS - Cascade Style Sheet](syllabus/02 What is CSS.md)
 
 Week 3 - [Box Model and Floats](syllabus/03 Box Model and Floats.md)
 
-Week 4 and Week 5 - [Project Launch](syllabus/04 Project lunch.md)
+Week 4 and Week 5 - [Project Launch](syllabus/04 Project launch.md)
 
 Week 6 - [Introduction to Boostrap](syllabus/06 Intro Bootstrap.md)
 ***
