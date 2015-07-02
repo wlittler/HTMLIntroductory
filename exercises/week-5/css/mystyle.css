@@ -54,7 +54,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
 /*landing section*/
 /***
 Again, notice how everything I am modifying within <section id="landing">
@@ -84,5 +83,27 @@ has #landing as a pre-fix. Same concept has I described above with <nav>
     color: #fff;
     padding: 15px;
     border: 2px solid #fff;
-
+}
+#landing a:hover {
+    text-decoration: none;
+    border: 2px solid #000;
+    background: #000;
+}
+/*welcome section*/
+#welcome{
+    background: rgba(242, 235, 229, 1);
+}
+#welcome .container{
+    padding: 50px 0;
+}
+#welcome img, #welcome p{
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+}
+#welcome img {
+    margin-right: 45px;
+}
+#welcome p{
+    width: 665px;
 }
