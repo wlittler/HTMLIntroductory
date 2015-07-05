@@ -9,7 +9,7 @@ html {
 .container {
     width: 960px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 50px 0;
 }
 /*Navigation*/
 
@@ -35,6 +35,9 @@ ul li {
 That is too vague and will affect every single ul li you have on your page. By adding nav the selection
 becomes more 'personal', 'limited', or specific to what I'm trying to accomplish
 ******/
+nav .container {
+    padding: 10px 0;   
+}
 nav h1, nav ul, nav ul li {
     float: left;
 }
@@ -45,7 +48,7 @@ nav h1 {
 }
 nav ul {
     list-style: none;
-    line-height: 45px;
+    line-height: 43px;
 }
 nav ul li {
     margin-left: 15px;   
@@ -53,6 +56,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
 }
 /*landing section*/
 /***
@@ -78,23 +84,20 @@ has #landing as a pre-fix. Same concept has I described above with <nav>
     font-size: 25.5px;
     margin-bottom: 80px;
 }
-#landing a {
+#landing a, #donate .action-buttons a {
     text-decoration: none;
     color: #fff;
     padding: 15px;
     border: 2px solid #fff;
 }
-#landing a:hover {
+#landing a:hover, #donate .action-buttons a:hover {
     text-decoration: none;
     border: 2px solid #000;
     background: #000;
 }
 /*welcome section*/
-#welcome{
+#welcome, #events{
     background: rgba(242, 235, 229, 1);
-}
-#welcome .container{
-    padding: 50px 0;
 }
 #welcome img, #welcome p{
     float: left;
@@ -106,4 +109,43 @@ has #landing as a pre-fix. Same concept has I described above with <nav>
 }
 #welcome p{
     width: 665px;
+}
+/*programs section*/
+#programs .column{
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+#programs .column:last-child{
+    margin-right: 0;
+}
+
+#programs .column h3{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+/*Events section*/
+#events .container{
+    margin: 0 auto;
+}
+#events .event {
+    float: left;
+    text-align: center;
+}
+
+#events .event:first-child{
+    margin-right: 59px;
+}
+/*donate section*/
+#donate {
+ text-align: center;
+    background: #D89E65;
+}
+#donate h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+#donate .action-buttons a:first-child {
+    margin-right: 20px;
 }
