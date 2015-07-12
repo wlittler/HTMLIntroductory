@@ -1,6 +1,6 @@
 # Project Launch
 
-Now that we have covered the core concepts, we are ready to start building our first website. We will start from scratch, create a folder structure, add HTML and CSS files, and start writing code.
+Now that we have covered the core concepts, we are ready to start building our first website. We will start from scratch, creating the folder structure, adding HTML and CSS files, and then start writing code.
 
 It is very important that you choose a site type: organization, company, or personal site. Gather as much information and images as you can; they will help us to create the website. Having real content instead of using lorem ipsum and gray images makes a difference in the final product.
 
@@ -40,7 +40,7 @@ Call to action is a term used for elements in the website that require user inte
 
 ## Working in class
 
-There will be a total of 4 classes devoted to this project. Each day we will focus on solving the issues that arise with each section. Landing and Welcome will be done in a single day since those sections are the easiest ones. As we are working along during these days, we will put into practice what we have learned, so I recommend you review what we have learned in the past three weeks before coming to class. 
+There will be a total of 4 classes devoted to this project. Each day we will focus on solving the issues that arise with each section. Landing and Welcome will be done in a single day since those sections are the easiest ones. As we are working along during these days, we will put into practice what we have learned, so I recommend you review the past three weeks before coming to class. 
 
 ## Wireframe
 

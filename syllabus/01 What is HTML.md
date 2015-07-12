@@ -133,7 +133,7 @@ Replicate website. This is skills practice and if you get stuck, don't worry, be
 
 ## Day 2 - Demo, Q & A about homework, HTML5 Semantic Elements
 
-We will go over the homework from the first day and solve any roadblock encountered. We will talk about the new semantic elements that come with HTML5 that allow us to create a website using semantic elements.
+We will go over the homework from the first day and solve any roadblock encountered. We will talk about the new semantic elements that come with HTML5 that allow us to create a website.
 
 ### Homework for day 2
 

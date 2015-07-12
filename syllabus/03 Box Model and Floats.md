@@ -22,7 +22,7 @@ Every element has a border whether or not it is visible. If you have two element
 
 The margin is transparent and defines the space around the border. Margins allow you to separate elements from each other.
 
-Imagine you have a picture frame on a wall. The frame will be the border, the matting is the padding and the size of the picture is the width/height of the element. If you have more than one picture next to each other, then the separation distance will be the margin.
+Imagine you have a picture frame on a wall. The frame will be the border, the matting is the padding and the size of the picture is the width/height of the element. If you have adjacent pictures, the separation distance will be the margin.
 
 ![Box Model example](/images/box-model.jpg)
  
@@ -42,8 +42,6 @@ The dimensions, padding, and border of an element determines the final or total 
 
 Containing blocks represent the position in which the content block is located in relation to its parent. In this class we will concentrate on one of the properties: margin.
 
-In class we will see what happens when either the content block or containing block no longer fits - called overconstraint. We will discover how the agent/browser interprets those constraints and what we can do in the event that happens. 
- 
 <hr>
 
 # Float
@@ -54,7 +52,7 @@ In class we will be floating elements left and right and we will see the consequ
 
 ### Container collapse
 
-It occurs when the parent element cannot see the childs because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
+It occurs when the parent element cannot see the children because they are removed from the normal document flow, so it collapses up until it finds an element that is part of the normal flow. If not, then it collapses entirely.
 
 [Example of container collapse](/exercises/week-3/container-collapse.html)
 
@@ -63,3 +61,23 @@ It occurs when the parent element cannot see the childs because they are removed
 A column collapse happens when the floating element runs out of space from its parent container so that the element(s) will resume in another line.
 
 [Example of column collapse](/exercises/week-3/column-collapse.html)
+
+<hr>
+
+## Day 5 - Working with Box Model
+
+We will go over last week's homework, answering any questions you might have. This day we will be covering the box model properties and the consequences of manipulating these properties. In class we will see what happens when either the content block or containing block no longer fits - called overconstraint. We will discover how the agent/browser interprets those constraints and what we can do in the event that happens. 
+
+### Homework day 5
+
+Working on it
+
+## Day 6 - Manipulating the normal document flow
+
+We will go over day 5 homework, answering any questions you might have. In class we will be covering how can we manipulate the position of the elements by floating them to the left or right and the consequences that it brings such as container and column collapse.
+
+### Homework day 6
+
+You need to fix [container-collapse-problem.html](/exercises/week-3/container-collapse-problem.html). You are going to notice that the parent contaner has no color behind its children. Modify the CSS so you can see the background of the parent element.
+
+You need to fix [column-collapse-problem.html](/exercises/week-3/column-collapse-problem.html). You will need to fix the page to make the fourth box fit in the same row. 

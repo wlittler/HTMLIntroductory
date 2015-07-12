@@ -1,7 +1,7 @@
 Introduction to HTML & CSS
 ========================
    ![HTML](images/html5.png "HTML")
-   ![HTML](images/css3.png "CSS")
+   ![CSS](images/css3.png "CSS")
 
 > This course is designed for students with a interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
 
@@ -15,7 +15,15 @@ Week 3 - [Box Model and Floats](syllabus/03 Box Model and Floats.md)
 
 Week 4 and Week 5 - [Project Launch](syllabus/04 Project launch.md)
 
-Week 6 - [Introduction to Boostrap](syllabus/06 Intro Bootstrap.md)
+Week 6 - [Media Queries and GitHub App](syllabus/06 Media Query and GitHub App.md)
+
+Week 6.5 - [Introduction to Bootstrap](syllabus/06.5 Introduction to Bootstrap.md)
+
+Week 7 and Week 8 - [Mobile First Project](syllabus/07 Project using Bootstrap.md)
+
+Week 9 - [Useful Technologies](syllabus/09 Technologies.md)
+
+Week 10 - [Final Week](syllabus/10 Final Week.md)
 ***
 
 ### Book
@@ -27,6 +35,6 @@ Although you are not required to purchase a book for this class, we strongly rec
 
 Instructor: [Erik Zambrano](http://erikpz.com)
 
-Phone: (850) 980-3402
+Phone: (512) 529-1421
 
 Email: erik@austincodingacademy.com

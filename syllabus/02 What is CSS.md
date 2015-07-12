@@ -89,15 +89,15 @@ You can add `!important` after any property value and it will not let other rule
 
 ## Day 3 - Applying CSS to HTML elements
 
-We will go over last week's homework, answering any questions you might have. Then we will cover the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM elements.
+We will go over last week's homework, answering any questions you might have. This day we will cover the three ways of implementing CSS, analyzing the pros and cons of each.  We will experiment with the browser developer tool, focusing on the CSS manipulation of the DOM (document object model) elements.
 
 ### Homework for day 3
 
-Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, but just make sure you are applying at least 30 different properties to those elements. Don't just add 30 `color:blue;` declarations because that only counts as 1 applied property. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
+Create a HTML page and add some content to it, such as text, images, links, list, buttons, etc. Modify those elements as you please, but just make sure you are applying at least 30 different properties to those elements. Don't just add 30 `color:blue;` declarations because that only counts as one property applied. Again here is the [list of properties](http://www.w3schools.com/cssref/default.asp) so go wild!
 
 ## Day 4 - In-deep CSS selector
 
-We are already comfortable with what we can do with CSS using rules. The most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence in our application of those methods.
+We will go over day 3 homework, answering any questions you might have. Now that we are comfortable with what we can do with CSS using rules one of the most complicated part is defining the right selector. We will discover at least 8 ways to do selection and build confidence in our application of those methods.
 
 ### Homework day 4
 
