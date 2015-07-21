@@ -6,19 +6,19 @@ The main classes that we are going to be using are
 <ul>
     <li>
         <h3>.container-fluid</h3>
-        <p>Use `.container-fluid` for a full width container, spanning the entire width of your viewport.</p>
+        <p>Use <code>.container-fluid</code> for a full width container, spanning the entire width of your viewport.</p>
     </li>
     <li>
         <h3>.container</h3>
-        <p>Use `.container` for a responsive fixed width container.</p>
+        <p>Use <code>.container</code> for a responsive fixed width container.</p>
     </li>
     <li>
         <h3>.row</h3>
-        <p>`.row` must be placed within a `.container` (fixed-width) or `.container-fluid` (full-width) for proper alignment and padding.</p>
+        <p><code>.row</code> must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding.</p>
     </li>
     <li>
         <h3>.col-*-#</h3>
-        <p>Allow to create columns within a `.row`</p>
+        <p>Allow to create columns within a <code>.row</code></p>
         <ul>
             <li>*: sx, sm, md, lg</li>
             <li>#: 1 through 12</li>
@@ -26,7 +26,7 @@ The main classes that we are going to be using are
     </li>
     <li>
         <h3>.col-*-offset-#</h3>
-        <p>Move columns to the right using `.col-*-offset-#` classes. These classes increase the left margin of a column by # columns. For example, `.col-md-offset-4` moves `.col-md-4` over four columns.</p>
+        <p>Move columns to the right using <code>.col-*-offset-#</code> classes. These classes increase the left margin of a column by # columns. For example, <code>.col-md-offset-4</code> moves <code>.col-md-4</code> over four columns.</p>
         <ul>
             <li>*: sx, sm, md, lg</li>
             <li>#: 1 through 12</li>
