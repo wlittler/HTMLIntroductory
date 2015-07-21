@@ -19,7 +19,9 @@ Week 6 - [Media Queries and GitHub App](syllabus/06 Media Query and GitHub App.m
 
 Week 6.5 - [Introduction to Bootstrap](syllabus/06.5 Introduction to Bootstrap.md)
 
-Week 7 and Week 8 - [Mobile First Project](syllabus/07 Project using Bootstrap.md)
+Week 7 - [Bootstrap Exercises and Practices](syllabus/07 Bootstrap Exercises.md)
+
+Week 8 - [Mobile First Project](syllabus/07 Project using Bootstrap.md)
 
 Week 9 - [Useful Technologies](syllabus/09 Technologies.md)
 
