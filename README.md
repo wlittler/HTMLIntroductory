@@ -7,7 +7,7 @@ Introduction to HTML & CSS
 
 Pre-Class - [Environment Set Up](syllabus/00.md)
 
-Day 1 - [Introduccion to HTML](syllabus/01.md)
+Day 1 - [Introduction to HTML](syllabus/01.md)
 
 ***
 
