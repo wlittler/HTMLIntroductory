@@ -9,6 +9,7 @@ Pre-Class - [Environment Set Up](syllabus/00 Environments.md)
 
 
 Day 1 - [Introduction to HTML](syllabus/01.md)
+Day 2 - [HTML5 - Semantic Elements](syllabus/02.md)
 
 ***
 
