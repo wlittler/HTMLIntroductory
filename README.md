@@ -3,7 +3,7 @@ Introduction to HTML & CSS
    ![HTML](images/html5.png "HTML")
    ![CSS](images/css3.png "CSS")
 
-> This course is designed for students with a interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
+> This course is designed for students with an interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
 
 Pre-Class - [Environment Set Up](syllabus/00 Environments.md)
 
@@ -11,6 +11,8 @@ Pre-Class - [Environment Set Up](syllabus/00 Environments.md)
 Day 1 - [Introduction to HTML](syllabus/01.md)
 
 Day 2 - [HTML5 - Semantic Elements](syllabus/02.md)
+
+Day 3 - [CSS - Cascading Style Sheet](syllabus/03.md)
 
 ***
 
