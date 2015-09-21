@@ -10,7 +10,7 @@ Give two elements as an example of structural semantic element?
 
 What is expected to add in a Nav element?
 
-How would you differentiate sections from articles? Think of a newspaper
+How would you differentiate sections from articles? <small>Think of a newspaper</small>
 
 Would a table be a sematic element? Why?
 
