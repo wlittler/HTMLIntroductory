@@ -14,6 +14,8 @@ Day 2 - [HTML5 - Semantic Elements](syllabus/02.md)
 
 Day 3 - [CSS - Cascading Style Sheet](syllabus/03.md)
 
+Day 4 - [CSS - Rule Cascading and Selectors](syllabus/04.md)
+
 ***
 
 ### Book
