@@ -1,0 +1,51 @@
+Class - 9/21/2015 Monday
+
+Started with a quiz.
+What do you understand for Text-Level Semantics Elements?
+inline elements causes no break
+
+Give two elements as an example of text-level semantic element?
+<em> italicizes
+<strong> boldens
+
+What do you understand for Structural Semantics Elements?
+display block causes a break
+
+Give two elements as an example of structural semantic element?
+<header>
+<article>
+
+What is expected to add in a Nav element?
+the anchor element to take you to places
+
+How would you differentiate sections from articles? Think of a newspaper
+An article is typically nested inside of a section
+
+Would a table be a sematic element? Why?
+Yes because it defines its own content
+
+What does Video and Audio need in order to work?
+<source>
+
+What other semantic element do you think can be added into the next release of HTML6?
+<comment>
+<bookmark>
+
+Talked about homework
+
+CSS introduction
+Talked about Properties (font-size, padding, margin, color, etc.)
+Each property can have specific Values (20px, 10%, 2rem, blue, etc.)
+Values for typography - px, pt, em, rem, and xm
+Values for color - #000000, rgb(0,0,0), rgba(0,0,0,.8)(the .8 is the opacity), and words like white, blue, black.
+
+Talked about id and class
+id="" and class="" are my attributes within my elements
+In my css file, classes are selected with . and ids are selected with # 
+Example .my_class  and #my_id  are files in my css
+The following lines are found in my html file:
+<div class="my_class"></div>
+<div id="my_id"></div>
+
+Talked about referencing your css stylesheet within your html document
+<link rel="stylesheet" href="folderlocation/style.css">
