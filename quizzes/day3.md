@@ -1,4 +1,4 @@
-###  Quiz – Day 2: Casade Styles Sheet
+###  Quiz – Day 3: Casade Styles Sheet
 
 Name the two internal ways to write CSS.
 
