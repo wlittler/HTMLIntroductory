@@ -1,6 +1,6 @@
 ###  Quiz – Day 2: Casade Styles Sheet
 
-Name the two interal ways to write CSS.
+Name the two internal ways to write CSS.
 
 Name the only allowed way to add CSS in this course.
 
