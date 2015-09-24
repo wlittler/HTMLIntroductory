@@ -66,3 +66,12 @@ body a {
 ```
 this will select every anchor element within our body and give it a font-size of 20px. 
 
+### Child Selector
+Example:
+```html
+body > p {
+  color: red;
+}
+```
+this will select every p element directly within our body (not nested in another container) and paint it red.
+
