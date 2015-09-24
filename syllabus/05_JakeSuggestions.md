@@ -25,10 +25,9 @@
 2. Give each div the same class.
 
 3. By referencing the div, make the anchor elements have the following:
-
-* A left margin of 10 pixels.
-* A padding top and bottom of 5 pixels.
-* A padding left and right of 10 pixels.
+	* A left margin of 10 pixels.
+	* A padding top and bottom of 5 pixels.
+	* A padding left and right of 10 pixels.
 
 4. Give the divs a background color of your choice.
 
