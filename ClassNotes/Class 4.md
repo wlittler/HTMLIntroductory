@@ -35,9 +35,9 @@ Selectors can be:
 * type selectors - entire elements like a, p, div, section
     *  ( p will reference all p elements in your html file )
 * ID selectors - changes an element with an attribute of that unique name 
-    *  ( #my_id will reference <p id="my_id">This element only</p> )
+    *  ( ```html #my_id will reference <p id="my_id">This element only</p> ```)
 * class selectors - changes all elements with attributes of that class name 
-    *  ( .my_container will reference <div class="my_container>This changes</div><div class="my_container">So does this!</div> )
+    *  (```html .my_container will reference <div class="my_container>This changes</div><div class="my_container">So does this!</div> ```)
 
 the main difference between class and id selectors is that we can have multiple elements with the same class;
 we DO NOT want multiple elements to have the same ID.
