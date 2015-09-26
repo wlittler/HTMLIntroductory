@@ -16,6 +16,8 @@ Day 3 - [CSS - Cascading Style Sheet](syllabus/03.md)
 
 Day 4 - [CSS - Precedence and Selectors](syllabus/04.md)
 
+Day 5 - [CSS - Float and Clear](syllabus/05.md)
+
 ***
 
 ### Book
