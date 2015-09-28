@@ -18,6 +18,8 @@ Day 4 - [CSS - Precedence and Selectors](syllabus/04.md)
 
 Day 5 - [CSS - Float and Clear](syllabus/05.md)
 
+Day 6 - [CSS - Box Model](syllabus/06.md)
+
 ***
 
 ### Book
