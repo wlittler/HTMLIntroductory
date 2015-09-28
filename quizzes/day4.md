@@ -2,7 +2,7 @@
 
 Specificity is calculated by counting what components?
 
-Name 3 CSS properties are note inherited.
+Name 3 CSS properties that are not inherited.
 
 If two CSS rules have the same weight, and are affecting the element at the same property level, which one would win?
 
@@ -14,4 +14,4 @@ Weight the following selector
 * Link
 * style="color: red;"
 
-Give an example of a attribute selector.
+Give an example of an attribute selector.
