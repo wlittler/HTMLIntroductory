@@ -23,3 +23,5 @@ Clear has five values: inherit, left, right, both, and none.
 
 Clearing returns the element to the normal document flow after there have been floats.
 
+Talked about column and container collapsing while using floats and clears.
+
