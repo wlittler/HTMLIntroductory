@@ -23,7 +23,7 @@ Day 6 - [CSS - Box Model](syllabus/06.md)
 ***
 
 ### Book
-Although you are not required to purchase a book for this class, we strongly recommend you do. THe HTML/CSS book is a great reference book for learning the basics.
+Although you are not required to purchase a book for this class, we strongly recommend you do. The HTML/CSS book is a great reference book for learning the basics.
 
 [http://htmlandcssbook.com/](http://htmlandcssbook.com/)
 
