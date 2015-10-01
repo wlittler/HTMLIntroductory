@@ -73,4 +73,8 @@ The default width is 100% of the container and the default height is how high th
 The overall width is the sum of the dimension, padding and border; otherwise known as the "Content Block"
 The space it needs is the overall width plus the margin; otherwise known as the "Container Block"
 
-When the content block fits in a container, but the margin doesn't fit, the margin will be sacrificed (to the html gods)
+When the content block fits in a container, but the margin doesn't fit, the margin will be sacrificed (to the html gods).
+
+If you give your container a specific width, you can set your margins left and right to "auto" in order to center that container.
+
+
