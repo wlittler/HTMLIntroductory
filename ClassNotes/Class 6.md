@@ -58,11 +58,11 @@ Margin is the space between your element and the surrounding elements.
 Multiple variations to setting box model values:
 
 The order to set them is top, right, bottom, left.
-'''html
+```html
 padding: 20px; is the same as 20px 20px 20px 20px; 
 padding: 20px 10px; is the same as 20px 10px 20px 10px; 
-padding: 20px 10px 5px; is the same as 20px 10px 5px 20px; 
-'''
+padding: 20px 10px 5px; is the same as 20px 10px 5px 20px;
+```
 
 You may find yourself having to declare only one side of property. You can then use -direction like padding-left: or margin-bottom: to set only one of the properties.
 
