@@ -70,4 +70,7 @@ You can use different measurements within (like padding: 10px 20%;), but you sho
 
 The default width is 100% of the container and the default height is how high the content will get.
 
+The overall width is the sum of the dimension, padding and border; otherwise known as the "Content Block"
+The space it needs is the overall width plus the margin; otherwise known as the "Container Block"
 
+When the content block fits in a container, but the margin doesn't fit, the margin will be sacrificed (to the html gods)
