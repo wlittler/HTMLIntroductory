@@ -44,16 +44,26 @@ These boxes are broken down into 4 sections:
 4. margin
 
 Dimension is the width and height of the element.
+
 Padding is the space between the content and the border.
+
 Border is border between padding and margin. Unique to border is the way we style it in the css:
+
   border: 1px solid #345678;   this will set your border to have 1px width, be a solid line, and have a #345678 color.
+  
 Margin is the space between your element and the surrounding elements.
 
+
 Multiple variations to setting box model values:
+
 The order to set them is top, right, bottom, left.
+
 padding: 20px; is the same as 20px 20px 20px 20px;
+
 padding: 20px 10px; is the same as 20px 10px 20px 10px;
+
 padding: 20px 10px 5px; is the same as 20px 10px 5px 20px;
+
 
 You may find yourself having to declare only one side of property. You can then use -direction like padding-left: or margin-bottom: to set only one of the properties.
 
