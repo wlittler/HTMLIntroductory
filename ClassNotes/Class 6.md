@@ -54,19 +54,20 @@ Border is border between padding and margin. Unique to border is the way we styl
 Margin is the space between your element and the surrounding elements.
 
 
+
 Multiple variations to setting box model values:
 
 The order to set them is top, right, bottom, left.
-
-padding: 20px; is the same as 20px 20px 20px 20px;
-
-padding: 20px 10px; is the same as 20px 10px 20px 10px;
-
-padding: 20px 10px 5px; is the same as 20px 10px 5px 20px;
-
+'''html
+padding: 20px; is the same as 20px 20px 20px 20px; 
+padding: 20px 10px; is the same as 20px 10px 20px 10px; 
+padding: 20px 10px 5px; is the same as 20px 10px 5px 20px; 
+'''
 
 You may find yourself having to declare only one side of property. You can then use -direction like padding-left: or margin-bottom: to set only one of the properties.
 
 You can use different measurements within (like padding: 10px 20%;), but you should generally try to be consistant with your measurements.
+
+The default width is 100% of the container and the default height is how high the content will get.
 
 
