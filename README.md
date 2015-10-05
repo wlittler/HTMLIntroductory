@@ -5,7 +5,7 @@ Introduction to HTML & CSS
 
 > This course is designed for students with an interest in developing HTML applications and web pages. There is no prerequisite for knowledge but a basic competency in internet literacy is preferred.
 
-Pre-Class - [Environment Set Up](syllabus/00 Environments.md)
+Pre-Class - [Environment Set Up](syllabus/00.md)
 
 
 Day 1 - [Introduction to HTML](syllabus/01.md)
@@ -19,6 +19,8 @@ Day 4 - [CSS - Precedence and Selectors](syllabus/04.md)
 Day 5 - [CSS - Float and Clear](syllabus/05.md)
 
 Day 6 - [CSS - Box Model](syllabus/06.md)
+
+Day 7 - [Hands-on Exercises](sylllabus/07.md)
 
 ***
 
