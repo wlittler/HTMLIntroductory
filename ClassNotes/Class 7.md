@@ -110,3 +110,12 @@ The browser will read DOWN your html and css files. So the order you link and re
 
 background-size description here:  http://www.w3schools.com/cssref/css3_pr_background-size.asp
 
+in your css, this is how to link to your image for the background image:
+
+create an img folder within your project. then:
+
+```html
+#landing {
+    background-image: url(../img/name_of_your_image.jpg);
+}
+```
