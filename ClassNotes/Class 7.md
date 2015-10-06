@@ -85,12 +85,21 @@ Typically, the cleaner and more organized you can be with your code/life, the be
 So, to make an orderly structure for your projects/excercises/websites, here's the standard setup:
 
 FOLDER - Project1
+
     SUBFOLDER - css
+    
         FILE - style.css
+        
     SUBFOLDER - js
+    
         FILE - main.js
+        
     SUBFOLDER - img
+        
+        FILE - yakity_yak.jpg
+        
     FILE - index.html
+    
     
 ** REMBER TIME **  
 
