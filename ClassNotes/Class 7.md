@@ -108,3 +108,5 @@ The browser will read DOWN your html and css files. So the order you link and re
 ** END OF REMEMBER TIME **
 
 
+background-cover description here:  http://www.w3schools.com/cssref/css3_pr_background-size.asp
+
