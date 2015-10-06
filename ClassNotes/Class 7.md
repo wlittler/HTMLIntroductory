@@ -52,6 +52,7 @@ h3 {
 
 ###Html Reset
 
+In order to clear the default settings for elements from browsers, we need to reset the css.
 Copy and past the following code into a new css file named something like style-reset.css:
 
 ```html
@@ -76,4 +77,25 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 ```
+
+###Basic Website Folder Setup
+
+Typically, the cleaner and more organized you can be with your code/life, the better!
+
+So, to make an orderly structure for your projects/excercises/websites, here's the standard setup:
+
+FOLDER - Project1
+    SUBFOLDER - css
+        FILE - style.css
+    SUBFOLDER - js
+        FILE - main.js
+    SUBFOLDER - img
+    FILE - index.html
+    
+** REMBER TIME **  
+
+The browser will read DOWN your html and css files. So the order you link and reference objects and other files is UBER important  
+
+** END OF REMEMBER TIME **
+
 
