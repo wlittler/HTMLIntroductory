@@ -116,6 +116,6 @@ create an img folder within your project. then:
 
 ```html
 #landing {
-    background-image: url(../img/name_of_your_image.jpg);
+    background-image: url('../img/name_of_your_image.jpg');
 }
 ```
