@@ -35,9 +35,13 @@ In your css, when using a background image, use "../" to jump out of your cuuren
 When using the shorthand property the order of the property values is:
 
 background-color
+
 background-image
+
 background-repeat
+
 background-attachment
+
 background-position
 
 It does not matter if one of the property values is missing, as long as the ones that are present are in this order.
