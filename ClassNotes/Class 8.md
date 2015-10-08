@@ -15,6 +15,9 @@ a {
   font-family: 'Roboto', monospace;
 }
 ```
+
+##Discussing the Homework
+
 The following code was used for the gradient with a background image:
 
 ```html
@@ -22,3 +25,20 @@ The following code was used for the gradient with a background image:
   linear-gradient(to bottom, rgba(20,20,20,.9) 0%, rgba(0,0,0,.8) 100%), url('../img/wine.jpg') no-repeat center;
 }
 ```
+
+*** EARLY REMEMBER TIME ***
+Any time you have a container with floating items, remember to apply the clear-fix class we made (it contains several lines of css including "clear: both")
+*** END EARLY REMEMBER TIME ***
+
+In your css, when using a background image, use "../" to jump out of your cuurent folder.
+
+When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+It does not matter if one of the property values is missing, as long as the ones that are present are in this order.
+
