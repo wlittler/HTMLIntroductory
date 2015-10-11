@@ -20,7 +20,7 @@ Day 5 - [CSS - Float and Clear](syllabus/05.md)
 
 Day 6 - [CSS - Box Model](syllabus/06.md)
 
-Day 7 and Day 8 - [Hands-on Exercises](syllabus/07.md)
+Day 7 and Day 8 - [Hands-on Exercises](syllabus/07-08.md)
 
 Day 9 and Day 10 - [Midterm Project](syllabus/09-10.md) 
 
