@@ -24,6 +24,10 @@ Day 7 and Day 8 - [Hands-on Exercises](syllabus/07-08.md)
 
 Day 9 and Day 10 - [Midterm Project](syllabus/09-10.md) 
 
+Day 11 [Media Query](syllabus/11.md)
+
+Day 12 [Media Query Exercises](syllabus/12.md)
+
 ***
 
 ### Book
