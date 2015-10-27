@@ -28,6 +28,10 @@ Day 11 [Media Query](syllabus/11.md)
 
 Day 12 [Media Query Exercises](syllabus/12.md)
 
+Day 13 [Introduction to Boostrap](syllabus/13.md)
+
+Day 14 [Bootstrap Responsive Utility and Navigation](syllabus/14.md)
+
 ***
 
 ### Book
