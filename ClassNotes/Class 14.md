@@ -9,10 +9,15 @@ bootstrap.min.css and bootstrap.min.js
 Things to know:
 
 container-fluids
+
 rows
+
 columns
+
 offestting
+
 push/pull
+
 hidden/visible
 
 
@@ -23,6 +28,7 @@ xs < 767px < sm < 991px < md
 .visible-^-% and .hidden-^
 
 ^ denotes xs, sm, md, or lg
+
 % denotes the display property you wish to set (block, inline, or inline-block)
 
 *USEFUL TIDBIT*
