@@ -18,9 +18,7 @@ hidden/visible
 
 Break Points:
 
-xs < 767px
-768px < sm < 991px
-md > 991px
+xs < 767px < sm < 991px < md
 
 .visible-^-% and .hidden-^
 
