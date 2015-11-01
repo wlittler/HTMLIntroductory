@@ -32,6 +32,10 @@ Day 13 [Introduction to Boostrap](syllabus/13.md)
 
 Day 14 [Bootstrap Responsive Utility and Navigation](syllabus/14.md)
 
+Day 15 [Bootstrap Navigation](syllabus/15.md)
+
+Day 16 [Animate.css](syllabus/16.md)
+
 ***
 
 ### Book
