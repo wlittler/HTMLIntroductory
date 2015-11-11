@@ -36,7 +36,7 @@ Day 15 [Bootstrap Navigation](syllabus/15.md)
 
 Day 16 [Animate.css](syllabus/16.md)
 
-Day 17 [Final Project Kick-off](syllabus/17.md)
+Day 17 - Day 18 [Final Project Kick-off](syllabus/17.md)
 
 ***
 
