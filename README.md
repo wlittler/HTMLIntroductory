@@ -43,6 +43,12 @@ Day 17 - Day 18 [Final Project Kick-off](syllabus/17.md)
 
 # Resources
 
+## Homework
+
+Before class start you will have to have your homework turn in. You dont need to email anyone. We are going to have your GitHub account in file and we are going to be able to look at it from there.
+
+Here is a resource link on [how to upload your homework](syllabus/how-to-upload-homework.md) using GitHub. If you ever run into an issue and cannot upload for some reason email your homework in a ZIP file - use this as the ultimate resource.
+
 ## Books
 
 You are not required to purchase any of these books for this class. These are great reference books for learning if reading books is your way of learning.
