@@ -3,9 +3,9 @@
 ![HTML](images/html5.png "HTML")
 ![CSS](images/css3.png "CSS")
 
-Hello and welcome to this course about HTML5 and CSS. This course is meant for people who have zero to little knowledge about HTML or CSS and want to learn how to build webpages.
+Hello and welcome to the introduction to HTML5 and CSS. This course is meant for people who have little to no knowledge about HTML or CSS and want to learn how to build webpages.
 
-In this course we are going to learn about GitHub, the benefits it offers, and how to use it. In this platform we will have all our projects in sync. We will cover HTML from the ground up, from what is a tag or an element and how to use the new HTML5 semantic elements, what HTML is meant for. Then we will move to CSS and what CSS allows us to do to the HTML in terms of presentation and layout. Finally we are going to learn how to implement one of the most used frameworks; Bootstrap. We will use this framework to do our final project - a responsive webpage.
+In this course we are going to use GitHub covering the benefits it offers. We will cover HTML from the ground up, from what is a tag or an element, how to use the new HTML5 semantic elements, and what HTML is meant for. Then we will move to CSS. We will learn what CSS allows us to do to the HTML in terms of presentation and layout. Finally we are going to learn how to implement Bootstrap, one of the most used frameworks. We will use this framework to do our final project - a responsive webpage.
 
 # Lesson Plan
 
