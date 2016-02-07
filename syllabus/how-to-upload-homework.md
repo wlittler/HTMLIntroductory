@@ -14,7 +14,6 @@ For each homework you will be adding a new folder within your repository. In thi
 
 ![Homework folder](../images/homework/new-folder.gif)
 
-Now that your homework folder is created, you can add the files and/or folders related to your homework. You can even open that folder in brackets and only see the files/folders related to that homework and not get distracted by so many information.
+Now that your homework folder is created, you can add the files and/or folders related to your homework.
 
-
-Once you are done with your homework, open GihHub App, select your repository, **commit** to your changes and **sync**. Wait a couple minutes and make sure your files are working by going to `username.github.io` - remember to replace `username` with your GitHub username.
+Once you are done with your homework, open GihHub Desktop, select your repository, **commit** to your changes and **sync**. Wait a couple minutes and make sure all your files are working by going to `username.github.io` - remember to replace `username` with your GitHub username.
