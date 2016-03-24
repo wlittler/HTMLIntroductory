@@ -4,7 +4,7 @@
 
 #### [Class 10](https://www.youtube.com/watch?v=o8LuUgVZZY8)
 
-#### [Class 11]
+#### Class 11
 
 #### [Class 12](https://www.youtube.com/watch?v=YB6WLFRtQms)
 
