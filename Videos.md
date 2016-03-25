@@ -12,16 +12,16 @@
 
 #### [Class 13 pt. 2](https://www.youtube.com/watch?v=pgvvJsh-e9g)
 
-#### [Class 14](https://www.youtube.com/)
+#### Class 14
 
-#### [Class 15](https://www.youtube.com/)
+#### Class 15
 
-#### [Class 16](https://www.youtube.com/)
+#### [Class 16](https://www.youtube.com/watch?v=H4cp6sGIsoQ)
 
-#### [Class 17](https://www.youtube.com/)
+#### Class 17
 
-#### [Class 18](https://www.youtube.com/)
+#### Class 18
 
-#### [Class 19](https://www.youtube.com/)
+#### Class 19
 
-#### [Class 20](https://www.youtube.com/)
+#### Class 20
