@@ -41,7 +41,9 @@ Day 15 [Bootstrap Navigation](syllabus/15.md)
 
 Day 16 [Animate.css](syllabus/16.md)
 
-Day 17 - Day 18 [Final Project Kick-off](syllabus/17.md)
+Day 17 - Day 18 [Final Project - Responsive webpage](syllabus/17.md)
+
+Day 19 [Hosting and FTP](syllabus/19.md)
 
 # Resources
 
@@ -59,12 +61,23 @@ You are not required to purchase any of these books for this class. These are gr
 
 [Learn HTML in a day](http://www.amazon.com/Html-Ultimate-Learning-Development-Beginners/dp/1515343154)
 
+[Learn CSS in a day](http://www.amazon.com/Learn-CSS-DAY-Development-Beginners/dp/1515343952/)
+
 ## Videos
 
 [30 Days to Learn HTML & CSS](https://www.youtube.com/playlist?list=PLgGbWId6zgaWZkPFI4Sc9QXDmmOWa1v5F)
 
 [HTML and CSS Tutorial for Beginners | The Ultimate guide to learning HTML and CSS](https://www.youtube.com/watch?v=y3UH2gAhwPI)
 
-# Instructor
+# Instructors
 
-Your instructor is Erik Zambrano. You can learn more about him [here](http://erikpz.com) and you can reach him by email at  erik@austincodingacademy.com
+<table>
+<tr><th>Name</th><th>Email</th><th>Session</th></tr>
+<tr><td>Jake - Instructor</td><td>jake@austincodingacademy.com</td><td rowspan="2">Session 1 (T/TH)</td></tr>
+<tr><td>Marysol - TA</td><td>TBD</td></tr>
+
+<tr><td>Victoria - Instructor</td><td>victoria@austincodingacademy.com</td><td rowspan="2">Session 2 (M/W)</td></tr>
+<tr><td>Eddie - TA</td><td>eddie@austincodingacademy.com</td></tr>
+
+<tr><td>Erik - Instructor</td><td>erik@austincodingacademy.com</td><td>Session 3 (M/W)</td></tr>
+</table>
